@@ -22,14 +22,14 @@
         <div class="progress-text" id="progress-text"></div>
         <div class="question" id="question">Haz clic en "Empezar Quiz" para comenzar.</div>
         <div class="options" id="options"></div>
-        <div class="result" id="result"></div>
-        <div class="final-result" id="final-result"></div>
-        <button id="start-btn" onclick="startQuiz()">Empezar Quiz</button>
-        <div class="navigation-btns">
+
+        <div class="navigation-btns" style="margin-top: 20px; display: flex; justify-content: center; gap: 10px;">
+            <button id="start-btn" onclick="startQuiz()">Empezar Quiz</button>
             <button id="prev-btn" onclick="prevQuestion()" class="hidden">Anterior</button>
-            <button id="skip-btn" onclick="skipQuestion()" class="hidden">Siguiente</button>
+            <button id="skip-btn" onclick="skipQuestion()" class="hidden">Saltar / Siguiente</button>
         </div>
-        <button id="next-btn" onclick="nextQuestion()" class="hidden">Siguiente Pregunta</button>
+
+        <div class="final-result" id="final-result"></div>
     </div>
 
     <footer class="footer">

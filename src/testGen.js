@@ -56,7 +56,14 @@ function showQuestion() {
         const optionsContainer = document.getElementById('options');
         optionsContainer.innerHTML = '';
 
-        document.getElementById('prev-btn').disabled = currentIndex === 0;
+        const prevBtn = document.getElementById('prev-btn');
+        prevBtn.classList.remove('hidden');
+        prevBtn.disabled = currentIndex === 0;
+
+    
+        const skipBtn = document.getElementById('skip-btn');
+        skipBtn.classList.remove('hidden');
+        skipBtn.textContent = userAnswers[currentIndex] !== null ? "Siguiente" : "Saltar";
 
         q.options.forEach((option, index) => {
             const optionWrapper = document.createElement('div');
@@ -64,9 +71,10 @@ function showQuestion() {
 
             const button = document.createElement('button');
             button.className = 'option';
-            button.id = `opt-btn-${index}`;
+            button.id = `opt-btn-${index}`; 
             button.textContent = option;
 
+        
             if (userAnswers[currentIndex] !== null) {
                 const answer = userAnswers[currentIndex];
                 if (index === q.correct) button.classList.add('correct');
@@ -79,8 +87,6 @@ function showQuestion() {
             optionWrapper.appendChild(button);
             optionsContainer.appendChild(optionWrapper);
         });
-
-        document.getElementById('skip-btn').classList.toggle('hidden', userAnswers[currentIndex] !== null);
     } else {
         showFinalResult();
     }
@@ -98,20 +104,22 @@ function checkAnswer(selectedIndex) {
         isCorrect: isCorrect
     };
 
+    const selectedBtn = document.getElementById(`opt-btn-${selectedIndex}`);
+    const correctBtn = document.getElementById(`opt-btn-${correctIndex}`);
+    
     if (isCorrect) {
-        document.getElementById(`opt-btn-${selectedIndex}`).classList.add('correct');
+        selectedBtn.classList.add('correct');
         correctAnswers++;
     } else {
-        document.getElementById(`opt-btn-${selectedIndex}`).classList.add('incorrect');
-        document.getElementById(`opt-btn-${correctIndex}`).classList.add('correct');
+        selectedBtn.classList.add('incorrect');
+        correctBtn.classList.add('correct');
     }
 
-    const options = document.querySelectorAll('.option');
-    options.forEach(option => option.classList.add('disabled'));
+    document.querySelectorAll('.option').forEach(btn => btn.classList.add('disabled'));
 
     setTimeout(() => {
         nextQuestion();
-    }, 1200);
+    }, 1000);
 }
 
 function prevQuestion() {

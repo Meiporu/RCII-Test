@@ -119,22 +119,25 @@
      box-shadow: 0 0 25px var(--cyan-bright), inset 0 0 15px rgba(0, 217, 255, 0.1);
  }
 
- .option.correct {
-     background-color: rgba(26, 188, 156, 0.3) !important;
-     border-color: var(--teal) !important;
-     color: #ffffff !important;
-     box-shadow: 0 0 20px var(--teal), inset 0 0 10px rgba(26, 188, 156, 0.4);
- }
+.option.correct {
+    background-color: rgba(26, 188, 156, 0.4) !important; 
+    border-color: var(--teal) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 15px var(--teal), inset 0 0 10px rgba(26, 188, 156, 0.2);
+}
 
- /* Color para la opción incorrecta (Rojo/Cian suave) */
- .option.incorrect {
-     background-color: rgba(255, 68, 68, 0.25) !important;
-     border-color: #ff4444 !important;
-     color: #ff4444 !important;
-     box-shadow: 0 0 20px #ff4444;
- }
+.option.incorrect {
+    background-color: rgba(255, 68, 68, 0.3) !important; 
+    border-color: #ff4444 !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 15px #ff4444;
+}
 
- /* Alineación de los botones de navegación */
+.option.disabled {
+    pointer-events: none;
+    opacity: 1; 
+}
+
  .navigation-btns {
      display: flex;
      justify-content: center;
