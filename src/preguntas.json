@@ -562,7 +562,7 @@
     {
         "question": "En una red conmutada, ¿qué es el retardo de transmisión?",
         "options": [
-            "Longitud del paquete / Ancho de banda",
+            "Longitud del paquete / Capacidad de canal",
             "Distancia / Velocidad de propagación",
             "Tiempo de procesado + tiempo de cola",
             "Tiempo de ida y vuelta (RTT)"
@@ -980,16 +980,6 @@
         "correct": 0
     },
     {
-        "question": "¿Qué técnica usa NAT para permitir que muchos dispositivos usen una sola IP pública mediante puertos?",
-        "options": [
-            "Static NAT",
-            "Dynamic NAT",
-            "PAT (Port Address Translation)",
-            "VLAN"
-        ],
-        "correct": 2
-    },
-    {
         "question": "¿Cuál es el último paso del 'Handshake' de tres vías de TCP?",
         "options": [
             "SYN",
@@ -1100,16 +1090,6 @@
         "correct": 2
     },
     {
-        "question": "¿Cuál es el propósito del algoritmo de Karn en el protocolo TCP?",
-        "options": [
-            "Controlar la congestión inicial",
-            "Evitar el cálculo del RTT a partir de segmentos retransmitidos",
-            "Cerrar la conexión de forma elegante",
-            "Optimizar el tamaño de la ventana"
-        ],
-        "correct": 1
-    },
-    {
         "question": "¿Qué valor de distancia administrativa suele tener una ruta estática configurada en un router?",
         "options": [
             "0",
@@ -1176,16 +1156,6 @@
             "M = sqrt(1 + SNR)",
             "No hay límite para M",
             "M = 2^B"
-        ],
-        "correct": 1
-    },
-    {
-        "question": "En una red 802.11, ¿qué función cumple el intervalo SIFS?",
-        "options": [
-            "Es el tiempo de espera para colisiones",
-            "Prioriza tramas de control como ACKs sobre el tráfico de datos",
-            "Define el tiempo máximo de asociación",
-            "Sincroniza el beacon del AP"
         ],
         "correct": 1
     },
@@ -1340,16 +1310,6 @@
         "correct": 3
     },
     {
-        "question": "El comando 'host# ping -s 1472 -M do 1.1.1.1' sobre una red Ethernet (MTU 1500, cabecera IP 20 bytes, ICMP 8 bytes) con bit 'don't fragment' a 1:",
-        "options": [
-            "Dará error porque excede el tamaño máximo.",
-            "Es el valor límite para que no dé error el comando.",
-            "Dará error porque el límite es 1480.",
-            "Fragmentará el paquete automáticamente."
-        ],
-        "correct": 1
-    },
-    {
         "question": "¿Cuál de las siguientes no es una dirección válida para la interfaz de un router con máscara de 17 bits (/17)?",
         "options": [
             "10.9.127.0",
@@ -1496,16 +1456,6 @@
             "M = 4",
             "M = 10",
             "M = 32"
-        ],
-        "correct": 2
-    },
-    {
-        "question": "Un host A envía un segmento TCP de 1000 bytes. Recibe un ACK con número de reconocimiento 1501. Si el número de secuencia inicial (ISN) fue 500, ¿qué significa esto?",
-        "options": [
-            "Que se han perdido 500 bytes en el camino.",
-            "Que el receptor ha recibido correctamente los 1000 bytes enviados.",
-            "Que el receptor espera el byte 1501, confirmando la recepción del segmento de 1000 bytes.",
-            "Que hay un error de sincronización de ventanas."
         ],
         "correct": 2
     },
