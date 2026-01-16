@@ -1,0 +1,1572 @@
+[
+    {
+        "question": "¿Cuál es la unidad de medida del ancho de banda en el dominio de la frecuencia?",
+        "options": [
+            "bps",
+            "Hz (Hercios)",
+            "Baudios",
+            "Voltios"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Según el Teorema de Nyquist, si un canal tiene un ancho de banda de 3000 Hz y 2 niveles de señal, ¿cuál es su capacidad máxima?",
+        "options": [
+            "3000 bps",
+            "9000 bps",
+            "6000 bps",
+            "12000 bps"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué perturbación se define como la pérdida de energía de la señal al propagarse por el medio?",
+        "options": [
+            "Ruido",
+            "Distorsión",
+            "Atenuación",
+            "Diafonía"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la relación señal-ruido teórica máxima definida por Shannon?",
+        "options": [
+            "C = B * log2(1 + S/N)",
+            "C = 2 * B * log2(M)",
+            "C = B * (S/N)",
+            "C = 2 * log(B)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué capa del modelo OSI se encarga de la selección de la ruta y el direccionamiento lógico?",
+        "options": [
+            "Capa de Enlace",
+            "Capa de Sesión",
+            "Capa de Red",
+            "Capa de Transporte"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En el modelo TCP/IP, ¿en qué capa operan los protocolos FTP, SMTP y HTTP?",
+        "options": [
+            "Internet",
+            "Acceso a Red",
+            "Transporte",
+            "Aplicación"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "¿Qué protocolo se utiliza para la resolución de nombres de dominio a direcciones IP?",
+        "options": [
+            "DHCP",
+            "DNS",
+            "ICMP",
+            "ARP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál de los siguientes es un medio de transmisión guiado?",
+        "options": [
+            "Infrarrojos",
+            "Fibra Óptica",
+            "Microondas",
+            "Satélite"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué categoría de cable de par trenzado se requiere como mínimo para alcanzar 1 Gbps?",
+        "options": [
+            "Categoría 3",
+            "Categoría 5",
+            "Categoría 5e",
+            "Categoría 4"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la principal ventaja de la fibra óptica monomodo frente a la multimodo?",
+        "options": [
+            "Es más barata",
+            "Permite mayores distancias sin repetidores",
+            "Es más fácil de instalar",
+            "Usa LEDs en lugar de Láser"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué tipo de codificación utiliza Ethernet para asegurar la sincronización del reloj?",
+        "options": [
+            "NRZ",
+            "Manchester",
+            "AMI",
+            "Bipolar"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuántos bits tiene una dirección IPv4?",
+        "options": [
+            "128 bits",
+            "64 bits",
+            "32 bits",
+            "48 bits"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es el rango de la Clase B en direcciones IPv4?",
+        "options": [
+            "1-126",
+            "128-191",
+            "192-223",
+            "224-239"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo permite asignar direcciones IP de forma dinámica a los hosts?",
+        "options": [
+            "SNMP",
+            "DHCP",
+            "RIP",
+            "IGMP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué técnica permite dividir una red en subredes de tamaño variable?",
+        "options": [
+            "NAT",
+            "CIDR",
+            "VLSM",
+            "VLAN"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la máscara de subred por defecto para una red de Clase C?",
+        "options": [
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.255.255.255"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué protocolo de transporte es 'no orientado a conexión'?",
+        "options": [
+            "TCP",
+            "UDP",
+            "HTTP",
+            "SSH"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué campo de la cabecera IP evita que un paquete circule indefinidamente por la red?",
+        "options": [
+            "Checksum",
+            "TTL (Time to Live)",
+            "Fragment Offset",
+            "Version"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué mecanismo utiliza TCP para el control de flujo?",
+        "options": [
+            "Ventana Deslizante",
+            "Handshake de 2 vías",
+            "Best Effort",
+            "Encapsulamiento"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué puerto utiliza habitualmente el protocolo HTTP?",
+        "options": [
+            "21",
+            "25",
+            "80",
+            "443"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué tecnología permite que múltiples dispositivos en una red privada compartan una única IP pública?",
+        "options": [
+            "VLAN",
+            "NAT",
+            "Trunking",
+            "Switching"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo se utiliza para enviar mensajes de error y control en la capa de red?",
+        "options": [
+            "UDP",
+            "ICMP",
+            "ARP",
+            "SMTP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cómo se denomina a un ISP de nivel nacional o regional que se conecta a los nodos troncales?",
+        "options": [
+            "Tier 1",
+            "Tier 2",
+            "Tier 3",
+            "Access ISP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En el direccionamiento IPv4, ¿para qué se utiliza la dirección 127.0.0.1?",
+        "options": [
+            "Broadcast",
+            "Multicast",
+            "Loopback (Prueba local)",
+            "Default Gateway"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué dispositivo opera principalmente en la Capa 2 (Enlace) y utiliza direcciones MAC?",
+        "options": [
+            "Hub",
+            "Router",
+            "Switch",
+            "Repetidor"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué estándar define las redes LAN Ethernet?",
+        "options": [
+            "IEEE 802.11",
+            "IEEE 802.3",
+            "IEEE 802.15",
+            "IEEE 802.1Q"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el tamaño máximo de la carga útil (payload) en una trama Ethernet estándar?",
+        "options": [
+            "64 bytes",
+            "1024 bytes",
+            "1500 bytes",
+            "4096 bytes"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué método de acceso al medio utiliza WiFi (802.11)?",
+        "options": [
+            "CSMA/CD",
+            "CSMA/CA",
+            "Token Passing",
+            "Polling"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué campo de una trama Ethernet permite al receptor sincronizarse con el emisor?",
+        "options": [
+            "FCS",
+            "Preámbulo",
+            "Type",
+            "Data"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué permite una VLAN?",
+        "options": [
+            "Aumentar la velocidad del cable",
+            "Crear redes lógicas independientes sobre una misma infraestructura física",
+            "Conectar redes a larga distancia mediante satélite",
+            "Eliminar la necesidad de routers"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo se usa para el etiquetado de tramas en enlaces Trunk de VLANs?",
+        "options": [
+            "802.3x",
+            "802.1X",
+            "802.1Q",
+            "802.11ac"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la función del PVID en un puerto de un Switch?",
+        "options": [
+            "Identificar el fabricante",
+            "Asignar un ID de VLAN a tramas que llegan sin etiqueta",
+            "Limitar el ancho de banda",
+            "Encriptar los datos"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué tipo de puerto de switch se conecta normalmente a un PC final?",
+        "options": [
+            "Puerto Trunk",
+            "Puerto Access",
+            "Puerto Root",
+            "Puerto Mirror"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es la dirección de broadcast para la red 192.168.1.0/24?",
+        "options": [
+            "192.168.1.0",
+            "192.168.1.1",
+            "192.168.1.255",
+            "192.168.1.254"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué sucede en el proceso de encapsulamiento cuando los datos pasan de la capa de transporte a la de red?",
+        "options": [
+            "Se añade una cabecera con puertos",
+            "Se añade una cabecera con direcciones IP",
+            "Se añade una cabecera con direcciones MAC",
+            "Se eliminan las cabeceras"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué característica define a una red de conmutación de paquetes?",
+        "options": [
+            "Reserva de recursos de extremo a extremo",
+            "Los datos se dividen en trozos y pueden seguir rutas distintas",
+            "Uso exclusivo de fibra óptica",
+            "Solo funciona en modo analógico"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es la longitud de una dirección MAC?",
+        "options": [
+            "32 bits",
+            "48 bits",
+            "64 bits",
+            "128 bits"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué significa que un medio sea Full-Duplex?",
+        "options": [
+            "Transmite en un solo sentido",
+            "Transmite en ambos sentidos pero no a la vez",
+            "Transmite en ambos sentidos simultáneamente",
+            "No puede transmitir datos digitales"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿En qué banda de frecuencia opera el estándar 802.11b/g?",
+        "options": [
+            "5 GHz",
+            "2.4 GHz",
+            "60 GHz",
+            "900 MHz"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo de seguridad WiFi es considerado el más seguro de los siguientes?",
+        "options": [
+            "WEP",
+            "WPA",
+            "WPA2",
+            "TKIP"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la función principal de un Servidor Proxy?",
+        "options": [
+            "Actuar como intermediario entre un cliente y un servidor final",
+            "Asignar direcciones IP",
+            "Convertir señales digitales en analógicas",
+            "Almacenar archivos de gran tamaño"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué permite una red VPN?",
+        "options": [
+            "Aumentar el ancho de banda físico",
+            "Extender de forma segura una red local sobre una red pública",
+            "Eliminar los virus de la red",
+            "Conectar ordenadores sin cables"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué es el 'jitter' en una red?",
+        "options": [
+            "La pérdida total de paquetes",
+            "La variación en el retardo de llegada de los paquetes",
+            "La velocidad máxima del canal",
+            "El eco en las llamadas de voz"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En la jerarquía de ISPs, ¿qué es un IXP (Internet Exchange Point)?",
+        "options": [
+            "Un tipo de cable submarino",
+            "Un punto físico donde los ISPs intercambian tráfico",
+            "Un protocolo de enrutamiento",
+            "Un servidor de nombres"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué puerto utiliza el protocolo seguro HTTPS?",
+        "options": [
+            "80",
+            "22",
+            "443",
+            "110"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué capa del modelo OSI gestiona el cifrado y la compresión de datos?",
+        "options": [
+            "Aplicación",
+            "Presentación",
+            "Sesión",
+            "Física"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué componente de una red local se encarga de separar dominios de colisión pero no de difusión?",
+        "options": [
+            "Repetidor",
+            "Hub",
+            "Switch",
+            "Router"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué es una PDU (Protocol Data Unit)?",
+        "options": [
+            "Un tipo de cable",
+            "La unidad de información que intercambian capas pares",
+            "Un servidor de base de datos",
+            "Un identificador de puerto"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es la principal diferencia entre TCP y UDP?",
+        "options": [
+            "TCP es más rápido",
+            "UDP es orientado a conexión",
+            "TCP garantiza la entrega de datos, UDP no",
+            "UDP usa direcciones IP y TCP no"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué protocolo se usa comúnmente para la gestión de dispositivos de red?",
+        "options": [
+            "SMTP",
+            "SNMP",
+            "POP3",
+            "ARP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué parámetro mide el número de símbolos enviados por segundo a través de un canal?",
+        "options": [
+            "Tasa de bits",
+            "Ancho de banda",
+            "Tasa de baudios",
+            "Relación señal-ruido"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En el contexto de retardos, ¿qué es el retardo de propagación?",
+        "options": [
+            "Tiempo para poner los bits en el medio",
+            "Tiempo que tarda un bit en viajar por el medio físico",
+            "Tiempo de procesado en los routers",
+            "Tiempo de espera en colas"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el puerto estándar utilizado por el protocolo SSH?",
+        "options": [
+            "21",
+            "22",
+            "23",
+            "25"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué organización se encarga de definir los estándares IEEE 802?",
+        "options": [
+            "ISO",
+            "IETF",
+            "IEEE",
+            "ITU"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la longitud total de una dirección IPv6?",
+        "options": [
+            "32 bits",
+            "64 bits",
+            "128 bits",
+            "256 bits"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué capa de red se encarga del control de congestión de extremo a extremo?",
+        "options": [
+            "Capa de Red",
+            "Capa de Aplicación",
+            "Capa de Transporte",
+            "Capa Física"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En una red conmutada, ¿qué es el retardo de transmisión?",
+        "options": [
+            "Longitud del paquete / Ancho de banda",
+            "Distancia / Velocidad de propagación",
+            "Tiempo de procesado + tiempo de cola",
+            "Tiempo de ida y vuelta (RTT)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué técnica de modulación representa datos digitales mediante cambios en la fase de la portadora?",
+        "options": [
+            "ASK",
+            "FSK",
+            "PSK",
+            "PCM"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué protocolo utiliza el comando 'GET' para solicitar recursos?",
+        "options": [
+            "FTP",
+            "DNS",
+            "HTTP",
+            "SNMP"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es el rango de direcciones IP privadas de Clase A?",
+        "options": [
+            "172.16.0.0 - 172.31.255.255",
+            "192.168.0.0 - 192.168.255.255",
+            "10.0.0.0 - 10.255.255.255",
+            "169.254.0.0 - 169.254.255.255"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué tipo de cable coaxial se utiliza típicamente para la televisión por cable?",
+        "options": [
+            "RG-58 (50 ohm)",
+            "RG-59 (75 ohm)",
+            "UTP Cat 6",
+            "STP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo de transporte garantiza que los datos lleguen en el mismo orden en que se enviaron?",
+        "options": [
+            "UDP",
+            "IP",
+            "TCP",
+            "ICMP"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué tecnología permite agrupar varios puertos físicos para aumentar el ancho de banda entre switches?",
+        "options": [
+            "VLAN",
+            "EtherChannel / Link Aggregation",
+            "Spanning Tree",
+            "NAT"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el objetivo principal del protocolo CSMA/CD?",
+        "options": [
+            "Evitar colisiones en redes inalámbricas",
+            "Detectar y gestionar colisiones en redes Ethernet",
+            "Asignar direcciones IP",
+            "Cifrar la comunicación"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En IPv4, ¿cuántos hosts útiles tiene una subred con máscara /28?",
+        "options": [
+            "16",
+            "14",
+            "30",
+            "32"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué campo de la cabecera TCP se utiliza para el 'Three-way Handshake'?",
+        "options": [
+            "Flags (SYN, ACK)",
+            "Checksum",
+            "Window Size",
+            "Urgent Pointer"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué significa que un medio de transmisión sea 'Half-Duplex'?",
+        "options": [
+            "Solo puede recibir datos",
+            "Transmite en ambos sentidos simultáneamente",
+            "Transmite en ambos sentidos pero no al mismo tiempo",
+            "Solo puede transmitir datos"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la función de la subcapa LLC en el modelo OSI?",
+        "options": [
+            "Control de acceso al medio físico",
+            "Control de enlace lógico y multiplexación",
+            "Enrutamiento de paquetes",
+            "Sincronización de bits"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué tecnología de fibra óptica permite enviar múltiples señales de luz de diferente longitud de onda?",
+        "options": [
+            "Monomodo",
+            "WDM (Wavelength Division Multiplexing)",
+            "STP",
+            "UTP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué dispositivo separa dominios de difusión (broadcast)?",
+        "options": [
+            "Switch",
+            "Hub",
+            "Router",
+            "Bridge"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué protocolo se usa para sincronizar los relojes de los dispositivos de red?",
+        "options": [
+            "NTP",
+            "SNMP",
+            "SMTP",
+            "DHCP"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué característica define a la 'fibra óptica multimodo'?",
+        "options": [
+            "Usa láser y llega a cientos de km",
+            "Múltiples rayos de luz rebotan en el núcleo",
+            "Es inmune a interferencias electromagnéticas",
+            "Solo transmite en una dirección"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el puerto por defecto para el protocolo SMTP (envío de correos)?",
+        "options": [
+            "80",
+            "443",
+            "25",
+            "110"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué tipo de registro DNS asocia un nombre de dominio con una dirección IPv4?",
+        "options": [
+            "MX",
+            "CNAME",
+            "A",
+            "AAAA"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué es un 'socket'?",
+        "options": [
+            "Una dirección MAC",
+            "La combinación de una dirección IP y un número de puerto",
+            "Un tipo de conector RJ45",
+            "Un cable de fibra óptica"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué sucede si el TTL de un paquete llega a cero?",
+        "options": [
+            "Se reenvía automáticamente",
+            "El router lo descarta y envía un ICMP 'Time Exceeded'",
+            "Se guarda en la caché del router",
+            "Se le asigna una nueva IP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En el modelo OSI, ¿cuál es la PDU de la Capa 2 (Enlace)?",
+        "options": [
+            "Paquete",
+            "Segmento",
+            "Trama",
+            "Bit"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué estándar WiFi opera exclusivamente en la banda de 5 GHz?",
+        "options": [
+            "802.11b",
+            "802.11g",
+            "802.11a",
+            "802.11n (solo 2.4)"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cómo se llama el proceso de añadir cabeceras a los datos al bajar por las capas del modelo OSI?",
+        "options": [
+            "Segmentación",
+            "Encapsulamiento",
+            "Desencapsulamiento",
+            "Modulación"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el propósito del protocolo ARP?",
+        "options": [
+            "Resolver nombres de dominio",
+            "Asociar una dirección IP conocida con una dirección MAC",
+            "Configurar máscaras de subred",
+            "Enviar correos electrónicos"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué campo del encabezado IPv4 indica la versión del protocolo?",
+        "options": [
+            "Header Length",
+            "Type of Service",
+            "Version",
+            "Protocol"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es el tamaño mínimo de una trama Ethernet?",
+        "options": [
+            "46 bytes",
+            "64 bytes",
+            "1500 bytes",
+            "1518 bytes"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué puerto utiliza el protocolo POP3 para recibir correos sin cifrar?",
+        "options": [
+            "110",
+            "143",
+            "993",
+            "995"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué es el ruido térmico?",
+        "options": [
+            "Ruido causado por interferencia de cables próximos",
+            "Ruido debido a la agitación de electrones por la temperatura",
+            "Ruido provocado por picos de tensión externos",
+            "Ruido por pérdida de señal"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué clase de dirección IP es la 224.0.0.1?",
+        "options": [
+            "Clase B",
+            "Clase C",
+            "Clase D (Multicast)",
+            "Clase E"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En el estándar 802.11 (WiFi), ¿qué es el SSID?",
+        "options": [
+            "La clave de encriptación",
+            "El nombre de la red inalámbrica",
+            "La dirección MAC del punto de acceso",
+            "El canal de frecuencia"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué componente de la fibra óptica evita que la luz se escape del núcleo?",
+        "options": [
+            "Chaqueta",
+            "Recubrimiento (Cladding)",
+            "Buffer",
+            "Conector"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo es 'connectionless' y no realiza retransmisiones?",
+        "options": [
+            "TCP",
+            "HTTP",
+            "UDP",
+            "FTP"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué es el 'ancho de banda de subida'?",
+        "options": [
+            "La velocidad a la que recibimos datos de Internet",
+            "La velocidad a la que enviamos datos a Internet",
+            "El tiempo de respuesta (ping)",
+            "La capacidad del cable físico"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué modo de transmisión permite enviar un mensaje de un emisor a un grupo específico de receptores?",
+        "options": [
+            "Unicast",
+            "Broadcast",
+            "Multicast",
+            "Anycast"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Qué significan las siglas LAN?",
+        "options": [
+            "Large Area Network",
+            "Local Area Network",
+            "Link Access Network",
+            "Long Area Network"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es la función del campo Checksum en una cabecera?",
+        "options": [
+            "Cifrar los datos",
+            "Detectar errores en la transmisión",
+            "Medir la velocidad",
+            "Identificar al emisor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es la máscara de subred para /30?",
+        "options": [
+            "255.255.255.0",
+            "255.255.255.252",
+            "255.255.255.248",
+            "255.255.255.240"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo se utiliza para la transferencia de archivos de manera segura mediante SSH?",
+        "options": [
+            "FTP",
+            "TFTP",
+            "SFTP",
+            "HTTP"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es la principal diferencia entre un Hub y un Switch?",
+        "options": [
+            "El Switch es más lento",
+            "El Hub envía los datos a todos los puertos; el Switch solo al destino",
+            "El Hub usa direcciones IP",
+            "No hay diferencia física"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En WiFi, ¿qué hace la función 'Roaming'?",
+        "options": [
+            "Aumentar la potencia de la señal",
+            "Permitir que un cliente se mueva entre puntos de acceso sin perder conexión",
+            "Cambiar la contraseña automáticamente",
+            "Bloquear usuarios no deseados"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué es la 'diafonía' (crosstalk)?",
+        "options": [
+            "Pérdida de señal por la distancia",
+            "Interferencia causada por cables adyacentes",
+            "Eco en las señales digitales",
+            "Efecto de la temperatura en el cobre"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué puerto usa el protocolo DNS?",
+        "options": [
+            "53",
+            "67",
+            "68",
+            "69"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Qué técnica usa NAT para permitir que muchos dispositivos usen una sola IP pública mediante puertos?",
+        "options": [
+            "Static NAT",
+            "Dynamic NAT",
+            "PAT (Port Address Translation)",
+            "VLAN"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es el último paso del 'Handshake' de tres vías de TCP?",
+        "options": [
+            "SYN",
+            "SYN-ACK",
+            "ACK",
+            "FIN"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Si un canal tiene una relación señal-ruido (SNR) de 30 dB y un ancho de banda de 4 kHz, ¿cuál es su capacidad máxima teórica según Shannon?",
+        "options": [
+            "~13.3 kbps",
+            "~39.8 kbps",
+            "~26.6 kbps",
+            "~40.1 kbps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es la principal diferencia entre los servicios 'Confirmado' y 'No Confirmado' en las primitivas de servicio entre capas?",
+        "options": [
+            "El tamaño de la PDU",
+            "La existencia de una primitiva de respuesta y otra de confirmación",
+            "El uso de direcciones MAC",
+            "La capa del modelo OSI donde operan"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En la codificación Manchester, ¿cómo se representa un '1' lógico?",
+        "options": [
+            "Un nivel de tensión alto constante",
+            "Una transición de bajo a alto en mitad del intervalo",
+            "Una transición de alto a bajo en mitad del intervalo",
+            "La ausencia de señal"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Según el documento, ¿qué sucede con la capacidad de un canal si duplicamos el ancho de banda pero mantenemos constante la potencia de ruido y de señal?",
+        "options": [
+            "Se duplica exactamente",
+            "Aumenta de forma logarítmica",
+            "Disminuye por la distorsión",
+            "Se mantiene igual"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué campo de la trama Ethernet es utilizado por el algoritmo CSMA/CD para detectar una colisión antes de que termine la transmisión?",
+        "options": [
+            "FCS",
+            "Pad (Relleno)",
+            "Preámbulo",
+            "SFD"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En el contexto de la jerarquía de Internet, ¿cuál es la función principal de un punto IXP?",
+        "options": [
+            "Asignar IPs públicas",
+            "Permitir el peering directo entre ISPs sin usar un Tier-1",
+            "Servir de caché para contenido DNS",
+            "Enrutar tráfico exclusivamente hacia redes VPN"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué problema específico resuelve el uso de la codificación Diferencial en lugar de la NRZ estándar?",
+        "options": [
+            "La atenuación",
+            "La ambigüedad de la polaridad en el cableado",
+            "El ruido térmico",
+            "El retardo de propagación"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Si un paquete IPv4 tiene el flag 'Don't Fragment' (DF) activo y llega a un router con una MTU menor que el tamaño del paquete, ¿qué ocurre?",
+        "options": [
+            "El router lo fragmenta de todos modos",
+            "El router lo descarta y envía un ICMP Tipo 3 Código 4",
+            "El router lo almacena en el buffer",
+            "El paquete se encapsula en una trama mayor"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En una configuración de VLAN, ¿qué diferencia técnica fundamental hay entre el PVID y el VID?",
+        "options": [
+            "No hay diferencia",
+            "El VID identifica la trama en el trunk; el PVID clasifica tramas sin etiqueta al entrar",
+            "El PVID es para fibra y el VID para cobre",
+            "El PVID es solo para la CPU del switch"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué tipo de modulación digital se considera la base de la tecnología ADSL para manejar múltiples subcanales?",
+        "options": [
+            "QAM",
+            "FDM",
+            "DMT (Discrete Multitone)",
+            "PCM"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del algoritmo de Karn en el protocolo TCP?",
+        "options": [
+            "Controlar la congestión inicial",
+            "Evitar el cálculo del RTT a partir de segmentos retransmitidos",
+            "Cerrar la conexión de forma elegante",
+            "Optimizar el tamaño de la ventana"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué valor de distancia administrativa suele tener una ruta estática configurada en un router?",
+        "options": [
+            "0",
+            "1",
+            "110",
+            "120"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En IPv6, ¿qué función cumple la dirección de 'Solicitación de Nodo' (Solicited-node multicast address)?",
+        "options": [
+            "Sustituir al ARP mediante ICMPv6",
+            "Configurar el servidor DHCP",
+            "Gestionar el flujo de datos multimedia",
+            "Definir el gateway por defecto"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Si se utiliza una fibra óptica monomodo con un núcleo de 9 micras, ¿cuál es el fenómeno físico predominante que limita la distancia sin repetidores?",
+        "options": [
+            "Dispersión modal",
+            "Dispersión cromática",
+            "Refracción interna total",
+            "Diafonía"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el tamaño del encabezado fijo de un paquete IPv6 comparado con el de IPv4?",
+        "options": [
+            "Es menor (20 bytes)",
+            "Es igual (20 bytes)",
+            "Es mayor (40 bytes)",
+            "Es variable"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En el protocolo TCP, ¿qué estado indica que el host local ha recibido un FIN pero aún no ha enviado el suyo propio?",
+        "options": [
+            "FIN_WAIT_1",
+            "CLOSE_WAIT",
+            "LAST_ACK",
+            "TIME_WAIT"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué característica técnica define a un puerto 'Hybrid' en la gestión de VLANs?",
+        "options": [
+            "Solo acepta tráfico tagged",
+            "Permite que tramas de varias VLANs salgan sin etiqueta (untagged)",
+            "Es compatible con Token Ring",
+            "Cambia de velocidad automáticamente"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál es el límite máximo de niveles de señal (M) permitidos en un canal antes de que el ruido lo haga inútil según el teorema de Shannon?",
+        "options": [
+            "M = SNR",
+            "M = sqrt(1 + SNR)",
+            "No hay límite para M",
+            "M = 2^B"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En una red 802.11, ¿qué función cumple el intervalo SIFS?",
+        "options": [
+            "Es el tiempo de espera para colisiones",
+            "Prioriza tramas de control como ACKs sobre el tráfico de datos",
+            "Define el tiempo máximo de asociación",
+            "Sincroniza el beacon del AP"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué campo de la cabecera TCP permite la implementación del mecanismo de 'Silly Window Syndrome Avoidance'?",
+        "options": [
+            "Options (MSS)",
+            "Window Size",
+            "Sequence Number",
+            "Acknowledgment Number"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cómo se calcula el retardo total de un paquete que atraviesa un único router (sin colas)?",
+        "options": [
+            "R_prop + R_trans",
+            "R_proc + R_trans + R_prop",
+            "R_trans + R_cola",
+            "R_prop * R_trans"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En la jerarquía de ISPs, ¿qué tipo de relación se establece normalmente mediante un contrato de 'Transit'?",
+        "options": [
+            "Un ISP paga a otro para acceder a todo Internet",
+            "Dos ISPs intercambian tráfico gratis",
+            "Un ISP de nivel 3 se conecta a un usuario",
+            "Un ISP Tier-1 se conecta a otro Tier-1"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "¿Cuál es el ID de VLAN reservado para la gestión nativa y que no puede ser eliminado en la mayoría de conmutadores?",
+        "options": [
+            "0",
+            "1",
+            "1024",
+            "4095"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué técnica de conmutación de paquetes minimiza el retardo al empezar a reenviar la trama en cuanto se lee la dirección MAC de destino?",
+        "options": [
+            "Store-and-forward",
+            "Cut-through",
+            "Fragment-free",
+            "Adaptive Switching"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En el protocolo ICMP, ¿cuál es el 'Tipo' que identifica un mensaje de Echo Request?",
+        "options": [
+            "0",
+            "3",
+            "5",
+            "8"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "¿Cuál es la función del bit 'CWR' (Congestion Window Reduced) en la cabecera TCP?",
+        "options": [
+            "Indicar que se ha recibido una notificación ECN",
+            "Reducir la velocidad de la tarjeta de red",
+            "Forzar la desconexión del host",
+            "Aumentar el tamaño del paquete"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Si una señal analógica tiene una frecuencia máxima de 15 kHz, ¿cuál debe ser la tasa mínima de muestreo para digitalizarla sin pérdida (Nyquist)?",
+        "options": [
+            "15 kHz",
+            "30 kHz",
+            "45 kHz",
+            "60 kHz"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué longitud tiene el campo FCS (Frame Check Sequence) en una trama Ethernet estándar?",
+        "options": [
+            "2 bytes",
+            "4 bytes",
+            "8 bytes",
+            "16 bytes"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En una red con direccionamiento CIDR 172.16.0.0/22, ¿cuál es la última dirección de host utilizable?",
+        "options": [
+            "172.16.0.254",
+            "172.16.3.254",
+            "172.16.4.254",
+            "172.16.255.254"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué protocolo de enrutamiento utiliza el algoritmo 'Shortest Path First' (SPF) basado en el estado del enlace?",
+        "options": [
+            "RIP",
+            "BGP",
+            "OSPF",
+            "EIGRP"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "¿Cuál es el propósito del campo 'Flow Label' en IPv6?",
+        "options": [
+            "Fragmentar el paquete",
+            "Identificar paquetes de un flujo específico para tratamiento QoS",
+            "Contar los saltos del paquete",
+            "Definir el puerto de destino"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En la arquitectura TCP/IP, ¿qué capa se encarga de la fragmentación y reensamblado de paquetes si el MTU es insuficiente?",
+        "options": [
+            "Capa de Red",
+            "Capa de Transporte",
+            "Capa de Enlace",
+            "Capa de Aplicación"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "En una red WLAN, ¿qué trama de control envía un receptor para confirmar que ha recibido un fragmento correctamente antes de recibir el siguiente?",
+        "options": [
+            "RTS",
+            "CTS",
+            "ACK",
+            "Beacon"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Si se habla de SNMP, se refiere a:",
+        "options": [
+            "El software de gestión de la red del laboratorio.",
+            "Un protocolo TCP simple de gestión y monitorización de red.",
+            "Una suite de comandos para monitorizar sistemas informáticos.",
+            "El gestor NMS consulta a los agentes y recibe avisos no programados llamados traps."
+        ],
+        "correct": 3
+    },
+    {
+        "question": "El comando 'host# ping -s 1472 -M do 1.1.1.1' sobre una red Ethernet (MTU 1500, cabecera IP 20 bytes, ICMP 8 bytes) con bit 'don't fragment' a 1:",
+        "options": [
+            "Dará error porque excede el tamaño máximo.",
+            "Es el valor límite para que no dé error el comando.",
+            "Dará error porque el límite es 1480.",
+            "Fragmentará el paquete automáticamente."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes no es una dirección válida para la interfaz de un router con máscara de 17 bits (/17)?",
+        "options": [
+            "10.9.127.0",
+            "10.0.0.1",
+            "10.10.128.255",
+            "10.0.128.0"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "En la capa de transporte de TCP/IP, ¿qué afirmación es correcta?",
+        "options": [
+            "TCP ofrece direccionamiento, retransmisión, orden y control de flujo.",
+            "UDP ofrece direccionamiento y transporte en orden.",
+            "TCP no ofrece el servicio de establecimiento de conexiones.",
+            "La diferencia entre TCP y UDP es solo la velocidad."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Sobre SNAT (Source NAT) en una pasarela G entre LAN e Internet:",
+        "options": [
+            "Bastará con que G sepa el protocolo de capa 4, la CI-ID incluya puerto/IP de A y la CE-ID incluya puerto/IP de Gext e IP de B.",
+            "Basta con que A sepa la dirección IP de B.",
+            "G utiliza la dirección IP de A para la conexión externa.",
+            "El protocolo SOCKS es obligatorio para SNAT."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Sobre la capacidad de canal y ancho de banda:",
+        "options": [
+            "Ancho de banda y capacidad del canal son sinónimos.",
+            "Capacidad de canal es el número máximo de bits/seg que se transmiten sin error.",
+            "Ancho de banda es el número máximo de símbolos/seg (baudios) que se pueden transmitir.",
+            "Las respuestas B y C son correctas según los teoremas de Shannon y Nyquist."
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Si un ping devuelve 'Network is Unreachable', significa:",
+        "options": [
+            "El equipo destino está apagado.",
+            "No hay una ruta hacia ese host/red en la tabla de rutas del equipo origen.",
+            "El cable está roto.",
+            "El campo TTL se ha agotado en el camino."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "¿Qué diferencia hay entre un servidor Proxy y un Router NAT?",
+        "options": [
+            "El Proxy trabaja en la capa de Aplicación y el NAT en la capa de Red (Nivel 3).",
+            "El NAT siempre requiere dos interfaces físicas y el Proxy no.",
+            "El Proxy es bidireccional y el NAT no.",
+            "No hay diferencia técnica real."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "En una red con 5000 hosts y switches de 24 puertos, la opción más escalable es:",
+        "options": [
+            "Topología en estrella simple conectada en cascada.",
+            "Topología de 3 niveles con enrutamiento en el núcleo e implementación de VLANs.",
+            "Topología en anillo con fibra óptica.",
+            "Uso de un solo router para todos los hosts."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Si un paquete IP sale con TTL=16 y atraviesa 4 routers y 2 switches, ¿con qué TTL llega al destino?",
+        "options": [
+            "10",
+            "12",
+            "16",
+            "14"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "La implementación de la RFC1918 en un firewall/router implica:",
+        "options": [
+            "No deja pasar paquetes de la red pública con origen o destino privado hacia/desde la red pública.",
+            "Permite el uso de direcciones públicas en la LAN.",
+            "Fuerza el uso de IPv6.",
+            "Elimina el protocolo ICMP."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "En una conexión VPN entre Oficina Remota (OR) y Sede Central (SC):",
+        "options": [
+            "Cada equipo local de la OR debe tener un cliente VPN.",
+            "Las pasarelas crean un túnel y actualizan tablas de rutas con las redes remotas a través de dicho túnel.",
+            "La cabecera pública siempre va encriptada.",
+            "Solo funciona si ambas sedes tienen la misma IP."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Sobre los retardos en Internet, el 'retardo de cola' se produce:",
+        "options": [
+            "Por el tiempo que tarda el bit en viajar por el cable.",
+            "En los routers cuando hay congestión o paquetes precedentes hacia el mismo enlace de salida.",
+            "Al procesar las cabeceras de aplicación.",
+            "Es constante y depende solo de la distancia."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En tecnologías de acceso, DOCSIS se refiere a:",
+        "options": [
+            "Un sistema de transmisión para redes de acceso por cable (CaTV).",
+            "El estándar para redes WiFi de alta velocidad.",
+            "El protocolo de enrutamiento de los Tier-1.",
+            "La gestión de fibra óptica monomodo."
+        ],
+        "correct": 0
+    },
+    {
+        "question": "En una configuración de VLANs, el etiquetado 802.1Q se añade en:",
+        "options": [
+            "Los puertos de acceso (Access).",
+            "Los enlaces troncales (Trunk) entre conmutadores.",
+            "Dentro de la tarjeta de red del PC cliente obligatoriamente.",
+            "En los Hubs de la red local."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "En un enlace Trunk 802.1Q, si llega una trama SIN etiqueta (untagged) y el puerto tiene configurado un PVID=10, ¿qué acción realizará el conmutador?",
+        "options": [
+            "Descarta la trama por seguridad.",
+            "Le añade la etiqueta VLAN 10 y la procesa según su tabla de reenvío.",
+            "La reenvía por la VLAN 1 (default) ignorando el PVID.",
+            "La envía a todos los puertos independientemente de la VLAN."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Se tiene un canal con un ancho de banda de 4 kHz y un SNR de 20 dB. ¿Cuál es el número máximo de niveles de señal (M) que permiten aprovechar la capacidad de Shannon sin exceder el límite de Nyquist?",
+        "options": [
+            "M = 2",
+            "M = 4",
+            "M = 10",
+            "M = 32"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Un host A envía un segmento TCP de 1000 bytes. Recibe un ACK con número de reconocimiento 1501. Si el número de secuencia inicial (ISN) fue 500, ¿qué significa esto?",
+        "options": [
+            "Que se han perdido 500 bytes en el camino.",
+            "Que el receptor ha recibido correctamente los 1000 bytes enviados.",
+            "Que el receptor espera el byte 1501, confirmando la recepción del segmento de 1000 bytes.",
+            "Que hay un error de sincronización de ventanas."
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En la codificación Manchester utilizada en Ethernet 10BaseT, si la tasa de baudios es de 20 Megabaudios, ¿cuál es la tasa de bits efectiva?",
+        "options": [
+            "20 Mbps",
+            "10 Mbps",
+            "40 Mbps",
+            "5 Mbps"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Si un router recibe un paquete con una dirección de destino que coincide con tres entradas de su tabla de rutas: 10.0.0.0/8, 10.1.0.0/16 y 10.1.1.0/24. ¿Por qué interfaz lo reenviará?",
+        "options": [
+            "Por la de la métrica más baja.",
+            "Por la de la máscara más corta (10.0.0.0/8).",
+            "Por la de la máscara más larga (10.1.1.0/24).",
+            "Realiza un balanceo de carga entre las tres."
+        ],
+        "correct": 2
+    },
+    {
+        "question": "En el protocolo SNMPv2, ¿cuál es la diferencia crítica entre la primitiva 'GetRequest' y 'GetBulkRequest'?",
+        "options": [
+            "GetBulkRequest usa TCP y GetRequest usa UDP.",
+            "GetBulkRequest permite recuperar grandes secciones de la MIB en una sola respuesta reduciendo el intercambio de mensajes.",
+            "GetRequest es para agentes y GetBulkRequest es solo para gestores NMS.",
+            "GetBulkRequest cifra los datos y GetRequest no."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Durante el cierre de una conexión TCP, el estado 'TIME_WAIT' sirve específicamente para:",
+        "options": [
+            "Esperar a que el usuario cierre la aplicación.",
+            "Asegurar que el ACK final llegue al destino y permitir que paquetes duplicados antiguos expiren en la red.",
+            "Acelerar la liberación de recursos en el servidor.",
+            "Reiniciar el Three-way Handshake inmediatamente."
+        ],
+        "correct": 1
+    },
+    {
+        "question": "A que nivel pertenece el protocolo ICMP:",
+        "options": [
+            "Nivel 2 - Enlace",
+            "Nivel 3 - Red",
+            "Nivel 4 - Transporte",
+            "Ninguna de las anteriores"
+        ],
+        "correct": 3
+    },
+        {
+        "question": "A que nivel pertenece el protocolo ARP:",
+        "options": [
+            "Nivel 2 - Enlace",
+            "Nivel 3 - Red",
+            "Nivel 2 y 3 - Enlace y Red",
+            "Ninguna de las anteriores"
+        ],
+        "correct": 0
+    }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Preguntas de Test</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/Decrypt.js"></script>
+    <script src="src/testGen.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <h1>Quiz de Preguntas de Test: RCII</h1>
+    </header>
+
+    <div class="container">
+        <div class="progress-bar" id="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <div class="progress-text" id="progress-text"></div>
+        <div class="question" id="question">Haz clic en "Empezar Quiz" para comenzar.</div>
+        <div class="options" id="options"></div>
+        <div class="result" id="result"></div>
+        <div class="final-result" id="final-result"></div>
+        <button id="start-btn" onclick="startQuiz()">Empezar Quiz</button>
+        <button id="next-btn" onclick="nextQuestion()" class="hidden">Siguiente Pregunta</button>
+        <button id="restart-btn" onclick="restartQuiz()" class="hidden">Reiniciar Quiz</button>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GitHub</h3>
+                <a href="https://github.com/Meiporu" target="_blank" rel="noopener noreferrer">
+                    Ver en GitHub
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RCII Test. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
