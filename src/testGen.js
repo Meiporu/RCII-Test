@@ -5,7 +5,7 @@ let correctAnswers = 0;
 let userAnswers = [];
 
 // Cargar preguntas
-fetch('./src/preguntas.json')
+fetch('./src/TestQuestions/3rd-year/RCII.json')
     .then(response => response.json())
     .then(data => {
         questions = data;
@@ -38,55 +38,118 @@ function startQuiz() {
     document.getElementById('skip-btn').classList.remove('hidden');
     document.getElementById('final-result').style.display = 'none';
 
+    const sidePanel = document.getElementById('side-panel');
+    if (sidePanel) sidePanel.classList.remove('hidden');
+
     showQuestion();
 }
 
+function updateQuestionGrid() {
+    const grid = document.getElementById('question-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    shuffledQuestions.forEach((_, index) => {
+        const item = document.createElement('div');
+        item.className = 'grid-item';
+        item.textContent = `Pregunta ${index + 1}`;
+
+        if (index === currentIndex) item.classList.add('active');
+
+        const ans = userAnswers[index];
+        if (ans !== null) {
+            if (ans.selectedIndex !== undefined) {
+                item.classList.add(ans.isCorrect ? 'correct-row' : 'incorrect-row');
+            } else if (ans.skipped) {
+                item.classList.add('skipped-row');
+            }
+        }
+
+        item.onclick = () => {
+            currentIndex = index;
+            showQuestion();
+        };
+        grid.appendChild(item);
+    });
+}
+
 function updateProgressBar() {
-    const progress = (currentIndex / shuffledQuestions.length) * 100;
-    document.getElementById('progress-fill').style.width = progress + '%';
-    document.getElementById('progress-text').textContent = `Pregunta ${currentIndex + 1} de ${shuffledQuestions.length}`;
+    const progressFill = document.getElementById('progress-fill');
+    const progressText = document.getElementById('progress-text');
+    if (progressFill && progressText) {
+        const progress = (currentIndex / shuffledQuestions.length) * 100;
+        progressFill.style.width = progress + '%';
+        progressText.textContent = `Pregunta ${currentIndex + 1} de ${shuffledQuestions.length}`;
+    }
+}
+
+function updateQuestionGrid() {
+    const grid = document.getElementById('question-grid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    shuffledQuestions.forEach((_, index) => {
+        const item = document.createElement('div');
+        item.className = 'grid-item';
+        item.textContent = `Pregunta ${index + 1}`;
+
+        if (index === currentIndex) {
+            item.classList.add('active');
+        }
+
+        const answer = userAnswers[index];
+        if (answer !== null) {
+            if (answer.selectedIndex !== undefined) {
+                item.classList.add('answered');
+                if (answer.isCorrect) {
+                    item.classList.add('correct-row');
+                } else {
+                    item.classList.add('incorrect-row');
+                }
+            }
+            else if (answer.skipped) {
+                item.classList.add('skipped-row');
+            }
+        }
+
+        item.onclick = () => {
+            currentIndex = index;
+            showQuestion();
+        };
+        grid.appendChild(item);
+    });
 }
 
 function showQuestion() {
     if (currentIndex < shuffledQuestions.length) {
-        const q = shuffledQuestions[currentIndex];
         updateProgressBar();
+        updateQuestionGrid();
 
+        const q = shuffledQuestions[currentIndex];
         document.getElementById('question').textContent = q.question;
         const optionsContainer = document.getElementById('options');
         optionsContainer.innerHTML = '';
 
-        const prevBtn = document.getElementById('prev-btn');
-        prevBtn.classList.remove('hidden');
-        prevBtn.disabled = currentIndex === 0;
-
-    
-        const skipBtn = document.getElementById('skip-btn');
-        skipBtn.classList.remove('hidden');
-        skipBtn.textContent = userAnswers[currentIndex] !== null ? "Siguiente" : "Saltar";
+        const isDefinitive = userAnswers[currentIndex] !== null && userAnswers[currentIndex].selectedIndex !== undefined;
 
         q.options.forEach((option, index) => {
-            const optionWrapper = document.createElement('div');
-            optionWrapper.className = 'option-wrapper';
-
             const button = document.createElement('button');
             button.className = 'option';
-            button.id = `opt-btn-${index}`; 
+            button.id = `opt-btn-${index}`;
             button.textContent = option;
 
-        
-            if (userAnswers[currentIndex] !== null) {
-                const answer = userAnswers[currentIndex];
+            if (isDefinitive) {
+                const ans = userAnswers[currentIndex];
                 if (index === q.correct) button.classList.add('correct');
-                if (index === answer.selectedIndex && !answer.isCorrect) button.classList.add('incorrect');
+                if (index === ans.selectedIndex && !ans.isCorrect) button.classList.add('incorrect');
                 button.classList.add('disabled');
             } else {
                 button.onclick = () => checkAnswer(index);
             }
-
-            optionWrapper.appendChild(button);
-            optionsContainer.appendChild(optionWrapper);
+            optionsContainer.appendChild(button);
         });
+
+        document.getElementById('skip-btn').textContent = isDefinitive ? "Siguiente" : "Saltar";
     } else {
         showFinalResult();
     }
@@ -97,29 +160,25 @@ function checkAnswer(selectedIndex) {
     const isCorrect = selectedIndex === correctIndex;
 
     userAnswers[currentIndex] = {
-        question: shuffledQuestions[currentIndex].question,
         selectedIndex: selectedIndex,
+        isCorrect: isCorrect,
         userAnswer: shuffledQuestions[currentIndex].options[selectedIndex],
         correctAnswer: shuffledQuestions[currentIndex].options[correctIndex],
-        isCorrect: isCorrect
+        question: shuffledQuestions[currentIndex].question
     };
 
-    const selectedBtn = document.getElementById(`opt-btn-${selectedIndex}`);
-    const correctBtn = document.getElementById(`opt-btn-${correctIndex}`);
-    
     if (isCorrect) {
-        selectedBtn.classList.add('correct');
+        document.getElementById(`opt-btn-${selectedIndex}`).classList.add('correct');
         correctAnswers++;
     } else {
-        selectedBtn.classList.add('incorrect');
-        correctBtn.classList.add('correct');
+        document.getElementById(`opt-btn-${selectedIndex}`).classList.add('incorrect');
+        document.getElementById(`opt-btn-${correctIndex}`).classList.add('correct');
     }
 
     document.querySelectorAll('.option').forEach(btn => btn.classList.add('disabled'));
+    updateQuestionGrid();
 
-    setTimeout(() => {
-        nextQuestion();
-    }, 1000);
+    setTimeout(() => { nextQuestion(); }, 1200);
 }
 
 function prevQuestion() {
@@ -130,6 +189,9 @@ function prevQuestion() {
 }
 
 function skipQuestion() {
+    if (userAnswers[currentIndex] === null || userAnswers[currentIndex].selectedIndex === undefined) {
+        userAnswers[currentIndex] = { skipped: true };
+    }
     currentIndex++;
     showQuestion();
 }
@@ -147,7 +209,7 @@ function showFinalResult() {
 
     const finalResult = document.getElementById('final-result');
     const scorePercent = Math.round((correctAnswers / shuffledQuestions.length) * 100);
-    
+
     finalResult.innerHTML = `
         <h2>Resultado</h2>
         <p>Has acertado ${correctAnswers} de ${shuffledQuestions.length}</p>

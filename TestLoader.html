@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Preguntas de Test</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="src/testGen.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <h1>Baterias de Test</h1>
+    </header>
+    <div class="main-layout">
+        <div class="container">
+            <div class="progress-bar" id="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-text" id="progress-text"></div>
+            <div class="question" id="question">Haz clic en "Empezar Quiz" para comenzar.</div>
+            <div class="options" id="options"></div>
+
+            <div class="navigation-btns" style="margin-top: 20px; display: flex; justify-content: center; gap: 10px;">
+                <button id="start-btn" onclick="startQuiz()">Empezar Quiz</button>
+                <button id="prev-btn" onclick="prevQuestion()" class="hidden">Anterior</button>
+                <button id="skip-btn" onclick="skipQuestion()" class="hidden">Saltar / Siguiente</button>
+            </div>
+
+            <div class="final-result" id="final-result"></div>
+        </div>
+        <aside class="side-panel hidden" id="side-panel">
+            <h3>Navegación</h3>
+            <div class="question-grid" id="question-grid"></div>
+        </aside>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>GitHub</h3>
+            <a href="https://github.com/Meiporu" target="_blank" rel="noopener noreferrer">
+                Created by: Meiporu
+            </a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 ESEI Test Loader. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+
+
+</html>
