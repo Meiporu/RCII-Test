@@ -1518,5 +1518,281 @@
             "Ninguna de las anteriores"
         ],
         "correct": 0
-    }
+    },
+  {
+    "question": "C1. En una organización se quiere enlazar un equipo aislado, ubicado a 150 metros de distancia del resto de la red. El entorno para llegar al equipo aislado está lleno de maquinaria pesada alimentada con alta potencia, pero con visión directa entre el equipo y la red. Selecciona qué solución sería la óptima en calidad para realizar el enlace:",
+    "options": [
+      "a) Enlace inalámbrico utilizando tecnología 802.11 en modo WDS.",
+      "b) Enlace inalámbrico utilizando tecnología 802.11 en modo Ad-Hoc.",
+      "c) Enlace de par de cobre apantallado STP utilizando tecnología 802.3.",
+      "d) Enlace de fibra óptica utilizando adaptadores para tecnología 802.3.",
+      "e) Enlace Gigabit utilizando par de cobre apantallado STP.",
+      "f) Enlace FastEthernet con sincronismo intrínseco."
+    ],
+    "correct": [3]
+  },
+  {
+    "question": "C2. Fijándose en la topología de la figura (enlace entre PCA e Internet a través de AP1 y AP2):",
+    "options": [
+      "a) Para que PCA se conecte a Internet, AP1 y AP2 tienen que estar en modo Infrastructure, con AP2 en modo AP y AP1 en modo Station.",
+      "b) Para que PCA se conecte a Internet, AP1 y AP2 tienen que estar en modo Infrastructure, con AP1 en modo AP y AP2 en modo Station.",
+      "c) Para que PCA se conecte a Internet, AP1 y AP2 tienen que estar en modo Ad-Hoc.",
+      "d) Para que PCA se conecte a Internet, AP1 y AP2 tienen que estar en modo WDS.",
+      "e) Para que PCA se conecte a Internet, AP1 y AP2 tienen que tener activado el demonio de enrutamiento y estar en modo WDS.",
+      "f) Para que PCA se conecte a Internet, AP1 y AP2 tienen que tener activado el demonio de enrutamiento o estar en modo WDS."
+    ],
+    "correct": [3]
+  },
+  {
+    "question": "C3. Procedimiento de conmutación en switches:",
+    "options": [
+      "a) El procedimiento “Store and Forward” analiza sólo la cabecera del paquete y reenvía en función de su dirección de destino.",
+      "b) El procedimiento “Cut through” lee los 64 primeros bytes para conocer el destino y comprobar errores antes de reenviar.",
+      "c) El procedimiento “Fragment free” lee la trama sólo hasta la dirección de destino y reenvía sin comprobar errores.",
+      "d) El procedimiento “Adaptive switching” es una combinación del “Fragment free” y del “Store and Forward”.",
+      "e) El procedimiento “Store and Forward” deja entrar toda la trama antes de reenviarla, comprobando la dirección de destino y la posibilidad de error.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [4]
+  },
+  {
+    "question": "C4. La capa de enlace con protocolo 802.11 es más conocido como WiFi. Dicho estándar 802.11 utiliza una cabecera con 4 campos de dirección MAC. Responde adecuadamente:",
+    "options": [
+      "a) El modo WDS sirve para conectar los dispositivos esclavos (o estaciones) a una red.",
+      "b) El modo de operación Infrastructure permite conectar estaciones directamente entre sí, salvo que haya más de tres estaciones simultáneas, debido al problema del nodo oculto.",
+      "c) El modo de operación Ad-Hoc, si se configura con la opción WDS permite conectar redes inalámbricas entre sí.",
+      "d) En el modo Infrastructure, al integrar equipos aislados con segmentos de red, el dispositivo AP enruta los paquetes IP hacia los dispositivos Station.",
+      "e) El modo de operación WDS es el único que utiliza los cuatro campos de la cabecera, pues los AP que lo implementan tienen que incluir la dirección IP de los equipos origen y destino además de sus direcciones MAC.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C5. Se pretende crear una aplicación con dos canales de transmisión de datos, un canal de control que envía ficheros con información de control con un formato concreto (canal 1), y otro (canal 2) que envía a una velocidad constante (X bytes/seg) datos leídos de otro fichero que se actualiza en tiempo real. Responde adecuadamente:",
+    "options": [
+      "a) Se utilizarían sockets STREAM para el canal 1 y sockets DATAGRAM para el canal 2.",
+      "b) Se utilizarían sockets RAW para el canal 1 y sockets DATAGRAM para el canal 2.",
+      "c) Se utilizarían sockets DATAGRAM para el canal 1 y sockets STREAM para el canal 2.",
+      "d) Se utilizarían sockets STREAM para el canal 1 y sockets RAW para el canal 2.",
+      "e) Se utilizarían sockets DATAGRAM para el canal 1 y sockets DATAGRAM para el canal 2.",
+      "f) Se utilizarían sockets STREAM para el canal 1 y sockets STREAM para el canal 2."
+    ],
+    "correct": [0]
+  },
+  {
+    "question": "C6. ¿Cómo distingue el dominio Ethernet 802.3 si una trama tiene que ser dirigida al dominio IP, ARP o algún otro protocolo de capa superior a la capa de enlace?",
+    "options": [
+      "a) La información de protocolo superior está incluida en el Payload de la trama 802.3.",
+      "b) La trama 802.3 tiene que incluir una etiqueta VLAN llamada 802.1q que incluye un campo de Protocol-ID para redirigir las tramas a protocolos de capa superior dentro de su dominio de broadcast.",
+      "c) Ethernet 802.3 incluye un campo Protocol-ID para distinguir tramas de uno u otro tipo.",
+      "d) Por el campo “Ethertype” de la cabecera 802.3.",
+      "e) En Ethernet 802.3 no se distingue entre protocolos de capa superior, por lo que el dominio Ethernet hace un broadcast de primitiva hacia otros dominios.",
+      "f) La información de capas superiores, al ser Ethernet síncrona, va en el preámbulo de la trama."
+    ],
+    "correct": [3]
+  },
+  {
+    "question": "C7. Escoge una de las siguientes afirmaciones referidas a la tecnología VLAN 802.1q:",
+    "options": [
+      "a) Una trama broadcast ethernet generada en una VLAN no puede ser recibida en otra VLAN.",
+      "b) La etiqueta que lleva el VLAN-ID en la cabecera 802.1q sólo se hace visible en el modo access entre conmutadores o con hosts que lo reconozcan.",
+      "c) El modo trunk inserta un VLAN-ID en la cabecera IP para distinguir diferentes dominios de broadcast.",
+      "d) Existe un PVID que es el menor de todos los VLAN-ID disponibles en una topología de red ethernet.",
+      "e) Dos puertos conectados en modo “access” tienen que tener la misma configuración de VLAN-ID para que funcione.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [0]
+  },
+  {
+    "question": "C8. Se quiere hacer un programa Peer to Peer donde los usuarios inscritos se intercambian coordenadas GNSS (es decir, la ubicación actual). Se evitará en la medida de lo posible que esta información pase a través de un servidor central.",
+    "options": [
+      "a) Si los GW de ambos extremos tienen Full cone NAT no será posible o será muy difícil la conexión P2P.",
+      "b) Si el GW de uno de los extremos tiene “symetric NAT con persistencia de puerto” se podrá establecer la conexión entre pares.",
+      "c) Tiene que haber “persistencia de puerto” en los GW de los dos extremos para que se pueda establecer la conexión.",
+      "d) Uno de los dos extremos tiene que tener DNAT para que se establezca la conexión.",
+      "e) El servidor Ancla accesible por ambas partes tiene que implementar un servidor UDP para activar el UDP Hole.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C9. La utilidad “ping” es una de las más utilizadas en Redes de Computadores y forma parte del protocolo ICMP:",
+    "options": [
+      "a) ICMP es un acrónimo de Internet Connection Monitoring Protocol, e implementa varias funcionalidades de monitorización de conexiones en redes IP.",
+      "b) ICMP funciona sobre el protocolo de transporte UDP, al no ser orientado a conexión y servir como generador de tráfico de forma controlada.",
+      "c) ICMP es un protocolo de capa 4, con su propio indicador de “protocolo” en la cabecera IP, y sirve como protocolo de control de mensajes en Internet, con diversos tipos de mensajes en función de algunos eventos de red.",
+      "d) ICMP está compuesto de dos tipos de mensajes (controlados por el campo binario “tipo”), ICMP tipo 0 también llamado “ping”, e ICMP tipo 1 también llamado “pong”.",
+      "e) Los mensajes ICMP son siempre generados por el usuario mediante utilidades como “ping” o “traceroute”, a excepción del ICMP “time to live exceeded” que lo generan los routers cuando TTL está a 0.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C10. En una topología estándar SNMP:",
+    "options": [
+      "a) Los agentes se envían entre sí avisos llamados “traps” para informarse de eventos no previstos.",
+      "b) SNMP actúa como protocolo de aplicación sobre transporte TCP en los puertos 161 y 162.",
+      "c) Un gestor NMS actúa como servidor y recibe la información enviada por los agentes que actúan como clientes.",
+      "d) SNMP es un protocolo de capa de transporte tipo UDP que abre el puerto 161 en el NMS para esperar consultas y el 162 en los agentes para recibir “traps”.",
+      "e) El gestor NMS es un software que consulta a los agentes según modelo cliente/servidor. Recibe avisos no programados, llamados “traps”, de los agentes.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [4]
+  },
+  {
+    "question": "C11. Selecciona la respuesta adecuada:",
+    "options": [
+      "a) Según Nyquist, NUNCA se podrá transmitir a una velocidad en bits/seg mayor que el doble del ancho de banda del canal por donde se transmite medido en Hercios.",
+      "b) La capacidad de canal de Shanon es la misma que la de Nyquist pero restando el efecto de la relación Señal/Ruido para poder medirla en baudios.",
+      "c) En un canal en el que los símbolos que se transmiten son bits, la capacidad del canal coincide con el doble de su ancho de banda medido en Hercios.",
+      "d) Los baudios son los símbolos que se transmiten cuando estos no son bits.",
+      "e) La capacidad de canal es el número mínimo de bits/seg que se pueden transmitir por un enlace de datos sin que haya errores.",
+      "f) El ancho de banda es la capacidad de un canal de comunicaciones si este canal va por radio-frecuencia."
+    ],
+    "correct": [2]
+  },
+  {
+    "question": "C12. Si un canal de transmisión tiene un ancho de banda de 1MHz y el conjunto de interfaces son capaces de distinguir 64 símbolos diferentes, responde adecuadamente:",
+    "options": [
+      "a) La capacidad máxima del canal es de 12Mbaudios.",
+      "b) La capacidad máxima del canal es de 32Mbps.",
+      "c) La capacidad máxima del canal es de 32Mbaudios.",
+      "d) La capacidad máxima del canal es de 10Mbps.",
+      "e) La capacidad máxima del canal es de 1Mbaudio.",
+      "f) La capacidad máxima del canal es de 12Mbps."
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C13. Recordando la estructura de Internet, responde adecuadamente:",
+    "options": [
+      "a) Los ISP de nivel 1 utilizan siempre redes de acceso para conectarse a sus clientes.",
+      "b) Cuando varios ISP se quieren conectar entre sí para el intercambio de rutas, lo hacen a través de los llamados PoP (Point of Presence).",
+      "c) Un Punto Neutro es un lugar virtual de interconexión de routers de diferentes ISP.",
+      "d) Para conectar ISP de diferentes niveles entre sí, siempre se utilizan redes de acceso.",
+      "e) La estructura en ISP de diferentes niveles está gestionada por el IANA.",
+      "f) Un ISP de nivel 1 y otro ISP de nivel 3 nunca se conectan entre sí. Para conectarse entre sí utilizan siempre ISP de nivel 2."
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C14. Respecto a los retardos en Internet, responde adecuadamente:",
+    "options": [
+      "a) El retardo de procesamiento es el retardo que se produce al procesar el paquete recibido y enviarlo hacia las aplicaciones.",
+      "b) El retardo global es la suma de todos los retardos y se conoce como RTT.",
+      "c) El retardo de transmisión es el tiempo que tarda un paquete en trasladarse a través del medio de transmisión.",
+      "d) El retardo de propagación es el tiempo que tarda la interfaz en depositar el paquete en el medio de transmisión.",
+      "e) El retardo de cola se produce en los routers intermedios cuando se reservan posiciones para tráfico en sentido contrario cuando hay notificación por congestión explícita (ECN).",
+      "f) Cuando existen paquetes precedentes que van dirigidos al mismo enlace de salida en los routers intermedios se produce un retardo de cola."
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C15. Si en un firewall con política “origen: all, destino: all, acción: REJECT” se implementan en el orden leído las siguientes reglas: \n1. Origen 10.6.19.0/28 → Destino 4.5.6.7:2222 → DROP \n2. Origen 10.6.19.0/25 → Destino 4.5.6.7/32 → REJECT \n3. Origen 10.6.19.19/32 → Destino 4.5.6.7:2222 → PERMIT \n4. Origen 10.6.16.0/21 → Destino 4.5.6.0/24 → PERMIT",
+    "options": [
+      "a) El host con IP 10.6.19.129/24 puede acceder al puerto 2222 de 4.5.6.7.",
+      "b) El host con IP 10.6.19.19 puede acceder al puerto 2222 del equipo remoto 4.5.6.7.",
+      "c) El host con IP 10.6.19.10 no puede salir de ninguna forma a través del firewall.",
+      "d) Ningún equipo de la red 10.6.19.0/24 puede salir a internet ni a ningún otro equipo a través del firewall.",
+      "e) El host con IP 10.6.19.130/24 no puede conectarse a 4.5.6.7.",
+      "f) El host con IP 10.6.15.253/24 tiene acceso a cualquier sitio de internet."
+    ],
+    "correct": [0]
+  },
+  {
+    "question": "C16. Responde adecuadamente sobre esquemas de codificación:",
+    "options": [
+      "a) La codificación Manchester lleva un control de errores dentro de su esquema de codificación.",
+      "b) A partir de FastEthernet fue necesario cambiar la codificación Manchester para incluir las codificaciones por fibra óptica.",
+      "c) La codificación NRZ-I se retomó con FastEthernet pero hubo que añadirle otra codificación 4B5B para evitar muchos “ceros” y “unos” seguidos.",
+      "d) El Manchester diferencial permitió llegar a GigabitEthernet gracias a la inclusión del sincronismo en su esquema de codificación.",
+      "e) La codificación Manchester divide los requerimientos de ancho de banda por dos, al incluir un salto de tensión en cada símbolo.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [2]
+  },
+  {
+    "question": "C17. Responde adecuadamente:",
+    "options": [
+      "a) La conmutación de circuitos virtuales se basa en la conmutación por un identificador de conexión en lugar de identificadores de origen/destino.",
+      "b) Las tecnologías troncales de red son tecnologías de conmutación de circuitos en la mayoría de los casos.",
+      "c) La conmutación de paquetes es más rápida pero menos eficaz que la conmutación de circuitos.",
+      "d) Ethernet es un ejemplo de conmutación por circuito virtual.",
+      "e) En la conmutación por circuito virtual se utilizan metodologías de conmutación de circuitos pero sin establecimiento de la conexión.",
+      "f) En la conmutación de paquetes, los paquetes se envían de forma secuencial entre origen y destino."
+    ],
+    "correct": [0]
+  },
+  {
+    "question": "C18. Sobre el proceso de enrutamiento, por ejemplo en Linux:",
+    "options": [
+      "a) Primero consulta el origen, luego el destino y finalmente la ruta por defecto.",
+      "b) Primero consulta la caché de rutas, después las reglas del PBR y el destino más concreto de la tabla de rutas seleccionada.",
+      "c) Dependiendo del origen se seleccionará una tabla de rutas u otra, y tras ello la ruta más concreta.",
+      "d) Una ruta consta de al menos tres campos, origen, destino y siguiente salto.",
+      "e) Si el destino es una IP con direccionamiento privado, el paquete NO se procesa.",
+      "f) Ninguna de las anteriores."
+    ],
+    "correct": [2]
+  },
+  {
+    "question": "C19. En la capa de transporte de la pila de protocolos TCP/IP, los protocolos ofrecen servicios a la capa de aplicación. Responde adecuadamente:",
+    "options": [
+      "a) TCP ofrece servicios de direccionamiento, retransmisión (por pérdida de paquete) y transporte en orden, pero no ofrece control del flujo.",
+      "b) UDP ofrece sólo direccionamiento y transporte en orden, por ello tiene un campo puerto y un campo número de secuencia en su cabecera.",
+      "c) TCP ofrece servicios de direccionamiento, retransmisión (por pérdida de paquete), transporte en orden y control del flujo, pero el servicio de establecimiento de conexiones se lo deja a las aplicaciones.",
+      "d) UDP sólo ofrece servicio de direccionamiento mediante el campo puerto.",
+      "e) TCP sólo ofrece servicio de direccionamiento y UDP ofrece además servicios de transporte en orden, retransmisión, control del flujo y control de la conexión.",
+      "f) La diferencia entre TCP y UDP está exclusivamente en el servicio de retransmisión por pérdidas, que TCP ofrece pero UDP no, siendo por tanto UDP más rápido pero menos fiable."
+    ],
+    "correct": [3]
+  },
+  {
+    "question": "C20. La mejor forma de conocer los equipos conectados en una red Ethernet es:",
+    "options": [
+      "a) Escaneando los puertos del 1 al 65536 para conocer los servicios disponibles en cada equipo.",
+      "b) Hacer un ping y visualizar los ICMP tipo 0. Las direcciones IP de los ICMP tipo 0 recibidas serán los equipos conectados.",
+      "c) Hacer un ICMP tipo 8 a la dirección de Broadcast de la LAN y visualizar qué IPs responden. Esos serán los equipos conectados.",
+      "d) Hacer un “ip neigh” a cada una de las IPs de la subred LAN y visualizar la MAC de las IPs que respondan utilizando una herramientas de visualización de cache ARP como “fping”.",
+      "e) Hacer ICMP tipo 8 a cada una de las direcciones IP de la subred y visualizar acto seguido la caché ARP. Los equipos cuya MAC esté “accesible” y no permanente estarán conectados.",
+      "f) Utilizar la herramienta de escaneo NMAP como superusuario y con la opción -sP (referida a utilizar “ping” como escaneo)."
+    ],
+    "correct": [4]
+  },
+  {
+    "question": "C21. Selecciona la respuesta adecuada sobre la teoría de Nyquist:",
+    "options": [
+      "a) Según Nyquist, NUNCA se podrá transmitir a una velocidad en bits/seg mayor que el doble del ancho de banda del canal.",
+      "b) La capacidad de canal de Shannon es la misma que la de Nyquist pero en baudios.",
+      "c) En un canal en el que los símbolos que se transmiten son bits, la capacidad del canal coincide con el doble de su ancho de banda medido en Hercios.",
+      "d) Los baudios son los símbolos que se transmiten cuando estos no son bits.",
+      "e) La capacidad de canal es el número mínimo de bits/seg.",
+      "f) El ancho de banda es la capacidad si es radio-frecuencia."
+    ],
+    "correct": [2]
+  },
+  {
+    "question": "C22. Router con tabla vacía. Se insertan rutas con ip route add. Selecciona la opción correcta sobre qué datagrama es enrutado correctamente:",
+    "options": [
+      "a) 22.10.0.0 → 20.20.20.20",
+      "b) 22.10.9.72 → 20.20.20.20",
+      "c) 22.10.5.59 → 22.22.22.22",
+      "d) 22.10.0.1 → 24.24.24.24",
+      "e) 22.10.3.4 → 22.22.22.22",
+      "f) 22.10.5.14 → 22.22.22.22"
+    ],
+    "correct": [5]
+  },
+  {
+    "question": "C23. Si un canal de transmisión tiene un ancho de banda de 1MHz y el conjunto de interfaces son capaces de distinguir 64 símbolos diferentes:",
+    "options": [
+      "a) La capacidad máxima del canal es de 12Mbps.",
+      "b) La capacidad máxima del canal es de 12Mbaudios.",
+      "c) La capacidad máxima del canal es de 64Mbps.",
+      "d) La capacidad máxima del canal es de 64Mbaudios.",
+      "e) La capacidad máxima del canal es de 1Mbaudios.",
+      "f) La capacidad máxima del canal es de 2Mbps."
+    ],
+    "correct": [0]
+  }
 ]
