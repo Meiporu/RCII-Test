@@ -1858,5 +1858,125 @@
       "Los routers SOHO llevan NAT para permitir VPNs entre redes privadas."
     ],
     "correct": 0
+  },
+  {
+    "question": "1. Selecciona la respuesta adecuada sobre la red del campus de Ourense:",
+    "options": [
+      "La red es conmutada en forma de estrella con enrutamiento en la capa de distribución y conexiones de fibra oscura.",
+      "Utiliza fibra monomodo entre edificios. La red tiene forma de estrella con centro en la ESEI y enrutamiento en cada sede.",
+      "Es una red conmutada con enrutamiento de las subredes de cada sede en el backbone o núcleo.",
+      "El backbone dispone de routers en cada entrada a los edificios. La red de distribución es conmutada.",
+      "El cableado vertical suele ser de categoría 5e. En la ESEI se utiliza fibra monomodo para 10 Gigabit Ethernet.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "2. Las pasarelas SOHO (Small Office Home Office). Responde adecuadamente:",
+    "options": [
+      "Se le llama habitualmente router doméstico pero no tiene nada que ver con enrutamiento nivel 3.",
+      "Es realmente un router con capacidades de firewall en capa de aplicación.",
+      "No tiene nada que ver con un router IP, ya que no utiliza tablas de rutas ni protocolos.",
+      "Es un servidor PROXY que permite a la red local conectarse a Internet.",
+      "No se pueden poner pasarelas SOHO en redes locales que tengan servicios hacia Internet.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 5
+  },
+  {
+    "question": "3. Para medir el retardo total de un paquete de datos a través de Internet:",
+    "options": [
+      "Es necesario sumar los retardos de procesamiento, transmisión, propagación y cola en un sentido.",
+      "El retardo en Internet se conoce como Round Trip Time o RTT, y es lo que se mide.",
+      "El retardo es la mitad del RTT pues el camino de ida y vuelta es el mismo.",
+      "El retardo de cola no depende del tamaño de los paquetes.",
+      "El retardo de propagación y de transmisión son prácticamente el mismo en corta distancia.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "4. Sobre la Conmutación de Circuitos Virtuales (CCV):",
+    "options": [
+      "Incluye un VCI (Identificador de Circuito Virtual) en cada paquete en lugar de direcciones.",
+      "Se establece un circuito físico a través del cual se transmiten los datos paquetizados.",
+      "Los paquetes se reordenan en destino para que parezca un circuito físico.",
+      "Ha sido sustituida por tecnologías más modernas como MPLS.",
+      "Se utiliza casi exclusivamente en redes de acceso XDLS (ATM).",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "5. ¿Cómo se distingue el demonio Ethernet 802.3 si una trama va a IP, ARP o similar?",
+    "options": [
+      "La información de protocolo superior está incluida en el Payload.",
+      "La trama tiene que incluir una etiqueta VLAN 802.1q.",
+      "Ethernet 802.3 incluye un campo Protocol-ID para distinguir tramas.",
+      "Por el campo 'Ethertype' de la cabecera 802.3.",
+      "No se distingue, el demonio Ethernet hace un broadcast de primitiva.",
+      "La información va en el preámbulo de la trama."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "6. ¿Cómo distingue un demonio IP si un paquete recibido es UDP, TCP o ICMP?",
+    "options": [
+      "Por el campo 'protocolo' de la cabecera IP.",
+      "Utiliza sockets RAW para distinguir el formato de las cabeceras.",
+      "Por el campo 'puerto' de la cabecera UDP o TCP.",
+      "Por el campo 'Packet ID' de la cabecera IP.",
+      "No es labor del demonio IP distinguir el protocolo de capa superior.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "12. En una topología estándar SNMP:",
+    "options": [
+      "Los agentes se envían avisos llamados 'traps' para informarse de eventos no previstos.",
+      "SNMP actúa sobre transporte TCP en los puertos 161 y 162.",
+      "Un gestor NMS actúa como servidor y recibe información de agentes que actúan como clientes.",
+      "SNMP es un protocolo de capa de transporte tipo UDP.",
+      "El gestor NMS consulta a los agentes (cliente/servidor) y recibe avisos 'traps'.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "14. Selecciona la respuesta adecuada sobre tecnologías de conmutación y reenvío:",
+    "options": [
+      "El reenvío 'Cut through' lee la trama solo hasta conocer la dirección de destino para el reenvío.",
+      "En 'Store and Forward' el conmutador verifica solo la cabecera para reconocer errores.",
+      "En 'Fragment free' el conmutador reenvía la trama una vez leída al completo.",
+      "En 'Adaptive switching' la trama se trata con una prioridad u otra según la carga.",
+      "El conmutador siempre hace una comprobación básica de errores independientemente del método.",
+      "El conmutador no necesita la dirección Ethernet destino para su funcionamiento."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "16. Si un paquete IP con TTL=16 atraviesa 4 routers, 2 switches, 3 nodos ATM, 2 hubs y 4 APs (2 infraestructure + 2 WDS), ¿con qué TTL llega?",
+    "options": [
+      "16",
+      "10",
+      "9",
+      "0",
+      "12",
+      "7"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "18. ¿Cuál de las siguientes NO ES una dirección válida para un router con máscara de 21 bits?",
+    "options": [
+      "10.54.55.255",
+      "10.10.0.64",
+      "10.32.15.0",
+      "10.0.15.254",
+      "10.19.24.1",
+      "10.255.255.0"
+    ],
+    "correct": 0
   }
 ]
