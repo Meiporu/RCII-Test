@@ -1250,5 +1250,149 @@
         "correct": [
             0
         ]
-    }
+    },
+  {
+    "question": "C1. Un router que implementa la opción RFC1918 significa que:",
+    "options": [
+      "No tiene rutas hacia redes de direccionamiento privado.",
+      "Cualquier red destino con direccionamiento privado será enmascarada con direccionamiento público.",
+      "Las direcciones origen del paquete están enmascaradas.",
+      "Se etiquetan las direcciones origen y/o destino en la cabecera IP como direccionamiento privado.",
+      "Tiene que habilitarse DNAT para salir a Internet.",
+      "No distingue entre direccionamiento privado o público."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C2. ¿Cuál de las siguientes opciones NO ES una dirección válida para una interfaz cuando se utiliza una máscara de 21 bits?",
+    "options": [
+      "10.54.63.0",
+      "10.10.7.255",
+      "10.32.64.255",
+      "10.0.128.255",
+      "10.19.127.0",
+      "10.255.255.0"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "C3. Sobre la codificación Manchester en Ethernet:",
+    "options": [
+      "Es síncrona, lo que implica que inicialmente sincroniza las velocidades de transmisión mediante un protocolo.",
+      "Permitió aumentar la velocidad de transmisión gracias a que es síncrona.",
+      "Tanto FastEthernet como GigabitEthernet ya no la utilizan al tener que duplicarse la resolución de reloj.",
+      "Se ha visto limitada por los CRC en la capa de enlace, haciendo necesarios esquemas nuevos.",
+      "Utiliza dos de los 8 canales del par trenzado para enviar la información de sincronismo.",
+      "Ha sido adaptada a otras tecnologías de enlace gracias a su sincronismo."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C4. Si un paquete IP sale de un host A hacia un host B con un campo TTL a 31 y atraviesa 5 routers IP, 3 switches, 2 DSLAM, 2 hubs, 1 AP (infraestructure) y 2 AP's (WDS), ¿con qué valor de campo TTL llega?",
+    "options": [
+      "19",
+      "16",
+      "24",
+      "23",
+      "20",
+      "26"
+    ],
+    "correct": 5
+  },
+  {
+    "question": "C5. En un firewall con política por defecto REJECT y las reglas de la tabla adjunta, el host con IP 192.168.10.130/24:",
+    "options": [
+      "No puede salir a ningún sitio de Internet.",
+      "Solo puede acceder al puerto 2222 del equipo remoto 7.8.9.10.",
+      "Puede salir a Internet aparentemente sin limitación.",
+      "Tiene acceso a cualquier sitio de Internet.",
+      "No puede salir a Internet pero sí al puerto 2222 de 7.8.9.10.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C6. Para medir el retardo total de un paquete de datos a través de Internet:",
+    "options": [
+      "Es el RTT dividido entre dos.",
+      "Es necesario sumar los retardos de procesamiento, transmisión, propagación y cola en un sentido.",
+      "Basta con medir el tamaño medio de los paquetes y la cantidad de routers.",
+      "El retardo de propagación y transmisión son prácticamente el mismo en redes de corta distancia.",
+      "El retardo es la mitad del RTT pues el camino de ida y vuelta es el mismo.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C7. Sobre el estándar 802.11 (WiFi):",
+    "options": [
+      "El modo de operación Ad-Hoc, si se configura con WDS, permite conectar redes inalámbricas entre sí.",
+      "El modo Infraestructure tiene dos tipos de dispositivos llamados Station y AP.",
+      "El modo WDS es el único que utiliza los cuatro campos de la cabecera e incluye direcciones IP.",
+      "El modo WDS sirve para conectar los dispositivos esclavos a una red.",
+      "El modo Infraestructure permite conectar estaciones directamente entre sí.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C8. Para crear una aplicación capaz de enviar datos a una velocidad determinada (bytes/seg) modificable por el usuario:",
+    "options": [
+      "Se podría hacer usando cualquier tipo de socket, siempre que la aplicación sirva los datos a la velocidad deseada.",
+      "Solo con sockets RAW o DATAGRAM, ya que los STREAM son 'best-effort'.",
+      "Se usarían sólo sockets de aplicación.",
+      "La única forma sería mediante sockets RAW.",
+      "La única forma sería mediante sockets DATAGRAM.",
+      "La única forma sería mediante sockets STREAM."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C9. Sobre tecnologías de redes de acceso:",
+    "options": [
+      "Las redes de acceso xDSL tienen como origen una implementación por par de cobre.",
+      "Las tecnologías de acceso cubren las necesidades entre los operadores y los ISP.",
+      "El splitter es necesario en CaTV y xDSL para discriminar canales de datos.",
+      "El par de cobre es el soporte físico usado por ATM y LMDS.",
+      "Las redes 3G/4G implementan la capa de enlace LMDS y MMDS.",
+      "La infraestructura de televisión por cable derivó en las tecnologías xDSL."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C10. La mejor forma de conocer los equipos conectados en una red Ethernet es:",
+    "options": [
+      "Hacer un ICMP tipo 8 a cada una de las direcciones IP de la subred y visualizar la caché ARP.",
+      "Escaneando los puertos del 1 al 65536.",
+      "Hacer un fping y visualizar los ICMP tipo 0.",
+      "Hacer un ICMP tipo 8 a la dirección de Broadcast de la LAN.",
+      "Hacer un 'ip neigh' a cada una de las IPs utilizando fping.",
+      "Utilizar NMAP como superusuario con la opción -sP."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C11. ¿Cómo distingue el demonio Ethernet 802.3 el protocolo de capa superior (IP, ARP, etc.)?",
+    "options": [
+      "Por el campo 'Ethertype' de la cabecera 802.3.",
+      "La información de protocolo superior está incluida en el Payload.",
+      "La trama incluye una etiqueta VLAN 802.1q con un Protocol-ID.",
+      "Ethernet 802.3 incluye un campo Protocol-ID para distinguir tramas.",
+      "No se distingue, hace un broadcast de primitiva hacia otros demonios.",
+      "La información va en el preámbulo de la trama."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C12. Sobre equipamiento de red:",
+    "options": [
+      "La dirección IP de un Punto de Acceso (AP) tiene como función poder acceder a su gestión.",
+      "Un router es un dispositivo SOHO que permite el acceso a Internet y Wifi.",
+      "Una pasarela (gateway) trabaja exclusivamente a nivel de aplicación.",
+      "Un punto de acceso (AP) es un router que enlaza redes inalámbricas y cableadas.",
+      "Un router y un switch tienen la misma función a nivel de IP.",
+      "Los routers SOHO llevan NAT para permitir VPNs entre redes privadas."
+    ],
+    "correct": 0
+  }
 ]
