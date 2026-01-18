@@ -23,6 +23,20 @@
             <div class="question" id="question">Haz clic en "Empezar Quiz" para comenzar.</div>
             <div class="options" id="options"></div>
 
+            <div id="setup-container">
+                <label for="question-count"
+                    style="margin-bottom: 10px; display: block; color: var(--cyan-bright);">¿Cuántas preguntas quieres
+                    realizar?</label>
+                <select id="question-count" class="option"
+                    style="width: auto; padding: 10px; margin-bottom: 20px; background: var(--bg-dark); color: var(--cyan-bright); border: 1px solid var(--cyan-dark);">
+                    <option value="25">25 preguntas</option>
+                    <option value="50">50 preguntas</option>
+                    <option value="100">100 preguntas</option>
+                    <option value="all">Todas las preguntas</option>
+                </select>
+            </div>
+
+
             <div class="navigation-btns" style="margin-top: 20px; display: flex; justify-content: center; gap: 10px;">
                 <button id="start-btn" onclick="startQuiz()">Empezar Quiz</button>
                 <button id="prev-btn" onclick="prevQuestion()" class="hidden">Anterior</button>

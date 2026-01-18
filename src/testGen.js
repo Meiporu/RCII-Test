@@ -28,15 +28,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function startQuiz() {
     if (!questions || questions.length === 0) return;
-    shuffledQuestions = [...questions].sort(() => Math.random() - 0.5);
+
+    // 1. Obtener la cantidad seleccionada
+    const countSelect = document.getElementById('question-count');
+    const selectedValue = countSelect.value;
+
+    // 2. Mezclar TODAS primero para que la selección sea aleatoria cada vez
+    let tempQuestions = [...questions].sort(() => Math.random() - 0.5);
+
+    // 3. Limitar el array según la opción
+    if (selectedValue !== 'all') {
+        const limit = parseInt(selectedValue);
+        shuffledQuestions = tempQuestions.slice(0, limit);
+    } else {
+        shuffledQuestions = tempQuestions;
+    }
+
+    // 4. Inicializar variables de estado con el nuevo tamaño
     currentIndex = 0;
     correctAnswers = 0;
     userAnswers = new Array(shuffledQuestions.length).fill(null);
 
+    // 5. Ocultar configuración y mostrar botones de juego
+    document.getElementById('setup-container').classList.add('hidden');
     document.getElementById('start-btn').classList.add('hidden');
     document.getElementById('prev-btn').classList.remove('hidden');
     document.getElementById('skip-btn').classList.remove('hidden');
-    document.getElementById('final-result').style.display = 'none';
 
     const sidePanel = document.getElementById('side-panel');
     if (sidePanel) sidePanel.classList.remove('hidden');

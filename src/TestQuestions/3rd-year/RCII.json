@@ -2181,5 +2181,932 @@
       "Ninguna de las anteriores."
     ],
     "correct": 5
+  },
+  {
+    "question": "C1. Un router con RFC1918 implementado recibe un paquete con IP origen 192.168.1.5 y destino 8.8.8.8. ¿Qué acción realizará por defecto si no hay NAT configurado?",
+    "options": [
+      "Enmascarará la IP de origen automáticamente.",
+      "No podrá enrutar el paquete hacia Internet por falta de ruta hacia redes privadas.",
+      "Dará prioridad al paquete por ser tráfico local.",
+      "Encapsulará el paquete en un túnel GRE.",
+      "Lo enviará al servidor SOCKS.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C2. ¿Cuál de las siguientes direcciones NO es una IP de host válida para una interfaz con máscara /21?",
+    "options": [
+      "10.20.30.40",
+      "172.16.15.255",
+      "192.168.16.0",
+      "10.54.47.255",
+      "10.0.8.1",
+      "10.255.255.254"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "C3. Si un paquete IP sale con TTL=31 y atraviesa 4 routers, 8 switches, 3 APs en modo infraestructura y 2 APs en modo WDS, ¿con qué TTL llega al host destino?",
+    "options": ["14", "22", "27", "25", "20", "26"],
+    "correct": 5
+  },
+  {
+    "question": "C4. Sobre la codificación Manchester en redes Ethernet 10BaseT, selecciona la opción correcta:",
+    "options": [
+      "Es una codificación asíncrona que requiere bits de paridad.",
+      "Dobla la tasa de baudios respecto a la tasa de bits (2 baudios/bit).",
+      "Se utiliza en Gigabit Ethernet para mejorar el sincronismo.",
+      "Permite transmitir a 100 Mbps usando cable de categoría 5.",
+      "Reduce el ancho de banda necesario a la mitad.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C5. En un Firewall con política REJECT, se recibe un paquete TCP al puerto 80. Regla 1: ALLOW TCP 10.0.0.0/24 ANY ANY. Regla 2: DROP TCP 10.0.0.50 ANY ANY. Si el origen es 10.0.0.50:",
+    "options": [
+      "El paquete se permite porque la Regla 1 es la primera coincidencia.",
+      "El paquete se deniega porque la Regla 2 es más específica.",
+      "El paquete se deniega por la política por defecto.",
+      "Se produce un error de 'ambigüedad de reglas'.",
+      "El paquete se permite solo si es una respuesta (ACK).",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C6. Para medir el retardo total en un sentido (One-Way Delay), ¿cuál es la fórmula correcta?",
+    "options": [
+      "RTT / 2.",
+      "Proc + Trans + Prop + Cola.",
+      "Proc + Prop / Ancho de Banda.",
+      "Trans + Cola - RTT.",
+      "(Tamaño paquete / BW) + RTT.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C7. En 802.11 (WiFi), el modo WDS (Wireless Distribution System) se caracteriza por:",
+    "options": [
+      "Usar solo 2 direcciones MAC en la cabecera.",
+      "Permitir la interconexión inalámbrica de APs usando 4 direcciones MAC.",
+      "Ser el modo estándar para conectar smartphones a un AP.",
+      "Eliminar la necesidad de SSID.",
+      "Funcionar únicamente en la banda de 2.4 GHz.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C8. Si quieres enviar datos a una velocidad constante de 50 KB/s independientemente del estado de la red, ¿qué socket es más adecuado?",
+    "options": [
+      "Socket STREAM, porque garantiza la entrega.",
+      "Socket RAW, para evitar la sobrecarga de IP.",
+      "Cualquiera, siempre que la aplicación controle el ritmo de envío.",
+      "Solo DATAGRAM, porque no tiene control de flujo nativo.",
+      "Socket de aplicación SOCKS.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C9. El componente 'Splitter' en una conexión xDSL sirve para:",
+    "options": [
+      "Dividir la señal en dos cables Ethernet.",
+      "Separar las frecuencias de voz de las frecuencias de datos sobre el par de cobre.",
+      "Amplificar la señal de fibra óptica.",
+      "Permitir la conexión de varios routers a la misma línea.",
+      "Convertir señales digitales en analógicas para el hub.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C10. ¿Qué comando/método es más fiable para listar MACs activas en una red Ethernet local?",
+    "options": [
+      "ping 255.255.255.255 y ver quién responde.",
+      "Escanear puertos TCP del 1 al 1024.",
+      "Hacer ping individual a cada IP y luego consultar la caché ARP ('ip neigh').",
+      "Mirar la tabla de rutas del router SOHO.",
+      "Usar traceroute hacia la dirección de broadcast.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C11. El campo 'Ethertype' en una trama Ethernet II sirve para:",
+    "options": [
+      "Indicar la longitud del payload.",
+      "Identificar el protocolo de capa 3 (IP, ARP, etc.) que debe procesar los datos.",
+      "Establecer la prioridad de la VLAN (802.1q).",
+      "Detectar errores de colisión en el medio.",
+      "Sincronizar el reloj del receptor.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C12. Un switch separa dominios de colisión pero no de broadcast. ¿Cómo podemos separar los dominios de broadcast sin usar un router físico?",
+    "options": [
+      "Usando hubs en cascada.",
+      "Implementando VLANs (802.1q).",
+      "Activando el protocolo STP (Spanning Tree).",
+      "Cambiando a codificación Manchester Diferencial.",
+      "Aumentando el valor del TTL en los hosts.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C13. En una tabla de rutas, ¿qué ruta se elige si un destino coincide con 10.0.0.0/8 y 10.1.2.0/24?",
+    "options": [
+      "La de la métrica más baja.",
+      "La de la métrica más alta.",
+      "La que se haya introducido primero.",
+      "La del prefijo más largo (/24).",
+      "La del prefijo más corto (/8).",
+      "Ninguna, se produce un descarte por ambigüedad."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "C14. Sobre el protocolo SNMP, selecciona la afirmación CORRECTA:",
+    "options": [
+      "Usa TCP puerto 161 para mayor fiabilidad.",
+      "El agente envía 'GetRequest' al gestor para actualizar datos.",
+      "Las 'Traps' son mensajes asíncronos enviados por el agente ante eventos críticos.",
+      "La MIB es el protocolo encargado de mover los paquetes.",
+      "SNMPv1 es la versión más segura gracias al cifrado AES.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C15. En una red con NAT simétrico y persistencia de puerto, ¿qué ocurre si un host interno contacta con dos servidores externos distintos desde el mismo puerto local?",
+    "options": [
+      "El router usará la misma IP y puerto público para ambos (persistencia).",
+      "El router usará el mismo puerto público pero distinta IP pública.",
+      "El router asignará puertos públicos distintos para cada servidor externo.",
+      "El segundo servidor rechazará la conexión por duplicidad.",
+      "Se requiere activar UPnP para que funcione.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C16. ¿Qué retardo se ve afectado directamente si aumenta la congestión (buffer lleno) en un router?",
+    "options": [
+      "Retardo de transmisión.",
+      "Retardo de propagación.",
+      "Retardo de cola.",
+      "Retardo de procesamiento.",
+      "Todos por igual.",
+      "Ninguno, el router descarta paquetes sin afectar al retardo."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C17. ¿Cuál es la función del protocolo ARP?",
+    "options": [
+      "Resolver un nombre DNS a una dirección IP.",
+      "Asignar una dirección IP automáticamente (DHCP).",
+      "Obtener la dirección MAC de un host conocida su dirección IP.",
+      "Encaminar paquetes entre subredes distintas.",
+      "Controlar el flujo de datos en una sesión TCP.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C18. Una máscara de subred /21 equivale a:",
+    "options": [
+      "255.255.240.0",
+      "255.255.248.0",
+      "255.255.252.0",
+      "255.255.224.0",
+      "255.255.255.128",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C19. En un enlace de 10 Mbps con una distancia donde la propagación tarda 1ms, ¿cuánto tarda en enviarse un paquete de 1250 bytes (10000 bits) de un extremo a otro (retardo total ignorando cola y proc)?",
+    "options": ["1 ms", "2 ms", "10 ms", "1.1 ms", "0.1 ms", "2.1 ms"],
+    "correct": 1
+  },
+  {
+    "question": "C20. ¿Qué dispositivo de red trabaja principalmente en la Capa 1 del modelo OSI?",
+    "options": ["Switch", "Router", "Bridge", "Hub", "Firewall", "Punto de Acceso"],
+    "correct": 3
+  },
+  {
+    "question": "C21. En conmutación de paquetes, el método 'Cut-through' comparado con 'Store-and-Forward' es:",
+    "options": [
+      "Más lento pero más seguro.",
+      "Más rápido porque no espera a recibir la trama completa para reenviarla.",
+      "Igual de rápido pero detecta mejor los errores CRC.",
+      "Solo compatible con redes de fibra óptica.",
+      "Incompatible con el uso de VLANs.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C22. Un host tiene la IP 192.168.10.70/26. ¿Cuál es su dirección de broadcast?",
+    "options": [
+      "192.168.10.255",
+      "192.168.10.127",
+      "192.168.10.63",
+      "192.168.10.191",
+      "192.168.10.64",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C23. ¿Qué campo de la cabecera IP evita que un paquete circule indefinidamente por la red?",
+    "options": ["Checksum", "Fragment Offset", "TTL (Time to Live)", "Protocol", "Options", "Type of Service"],
+    "correct": 2
+  },
+  {
+    "question": "C24. Sobre los ISP de Nivel 1 (Tier 1), es CIERTO que:",
+    "options": [
+      "Deben pagar a otros ISP para acceder a toda la tabla de rutas de Internet.",
+      "Se conectan entre sí mediante acuerdos de 'peering' sin coste.",
+      "Solo operan a nivel local en ciudades pequeñas.",
+      "Son los encargados de dar acceso directo mediante ADSL al usuario final.",
+      "No utilizan protocolos de enrutamiento.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C25. Un socket STREAM utiliza internamente el protocolo:",
+    "options": ["UDP", "IP", "TCP", "ICMP", "Ethernet", "SCTP"],
+    "correct": 2
+  },
+  {
+    "question": "C26. ¿Cuál es el ancho de banda mínimo necesario para transmitir 2 Mbps usando una codificación de 4 niveles (símbolos) sin ruido según Nyquist?",
+    "options": ["2 MHz", "1 MHz", "0.5 MHz", "4 MHz", "500 KHz", "Ninguna de las anteriores."],
+    "correct": 2
+  },
+  {
+    "question": "C27. La técnica DNAT (Destination NAT) se usa principalmente para:",
+    "options": [
+      "Permitir que los equipos de una LAN salgan a Internet.",
+      "Publicar un servidor interno (IP privada) hacia el exterior (IP pública).",
+      "Cambiar la MAC de los paquetes en un bridge.",
+      "Asignar IPs dinámicas por DHCP.",
+      "Cifrar el tráfico de una VPN.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C28. ¿Qué protocolo de transporte NO garantiza la entrega ni el orden de los datos?",
+    "options": ["TCP", "UDP", "HTTP", "FTP", "SSH", "BGP"],
+    "correct": 1
+  },
+  {
+    "question": "C29. Un enlace tiene una tasa de errores muy alta. ¿Qué protocolo de transporte sería más eficiente para transferir un archivo grande?",
+    "options": [
+      "UDP, porque no pierde tiempo en retransmisiones.",
+      "TCP, porque gestiona la retransmisión de segmentos perdidos.",
+      "ICMP, para monitorizar la línea constantemente.",
+      "Ethernet directamente.",
+      "IP, activando el bit de fragmentación.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C30. ¿Qué significa que un switch sea 'Layer 3'?",
+    "options": [
+      "Que solo funciona con cables de categoría 3.",
+      "Que puede realizar funciones de enrutamiento IP además de conmutación MAC.",
+      "Que tiene 3 puertos de alta velocidad.",
+      "Que utiliza el protocolo de 3 capas de seguridad.",
+      "Que no necesita direcciones IP para ser configurado.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C31. El protocolo ICMP 'Time Exceeded' se genera cuando:",
+    "options": [
+      "Un servidor tarda mucho en responder (timeout).",
+      "El TTL de un paquete llega a 0 en un router intermedio.",
+      "La conexión TCP se cierra por inactividad.",
+      "El ancho de banda está saturado.",
+      "Se intenta acceder a un puerto cerrado.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C32. En una red WiFi, el 'Nodo Oculto' se soluciona principalmente mediante:",
+    "options": [
+      "Aumentando la potencia de transmisión.",
+      "Cambiando a modo Ad-Hoc.",
+      "El mecanismo RTS/CTS (Request to Send / Clear to Send).",
+      "Usando antenas unidireccionales.",
+      "Desactivando el SSID.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C33. Una red 10.0.0.0/11, ¿cuántos hosts permite aproximadamente?",
+    "options": ["2 mil", "65 mil", "2 millones", "16 millones", "500 mil", "Ninguna de las anteriores."],
+    "correct": 2
+  },
+  {
+    "question": "C34. La principal diferencia entre un Hub y un Switch es:",
+    "options": [
+      "El Hub es más caro.",
+      "El Switch reenvía la trama solo al puerto donde está el destino, el Hub a todos.",
+      "El Hub trabaja en capa 2.",
+      "El Switch no puede detectar colisiones.",
+      "El Hub permite crear VLANs.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C35. ¿Cuál es el propósito del campo 'Checksum' en la cabecera IP?",
+    "options": [
+      "Verificar la integridad de los datos (payload).",
+      "Verificar la integridad únicamente de la cabecera IP.",
+      "Cifrar el paquete.",
+      "Controlar la congestión de la red.",
+      "Identificar el número de fragmento.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C36. Un router tiene dos rutas para 192.168.1.0/24: una vía RIP (métrica 3) y otra vía OSPF (métrica 100). ¿Cuál elegirá?",
+    "options": [
+      "RIP, porque 3 < 100.",
+      "OSPF, porque tiene menor Distancia Administrativa por defecto.",
+      "Ambas, repartiendo el tráfico (balanceo).",
+      "La que se haya configurado más recientemente.",
+      "La que use la interfaz más rápida.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C37. En el modelo OSI, la capa encargada del direccionamiento lógico y enrutamiento es:",
+    "options": ["Enlace", "Física", "Red", "Transporte", "Sesión", "Presentación"],
+    "correct": 2
+  },
+  {
+    "question": "C38. ¿Qué sucede si un switch recibe una trama cuya MAC origen ya está en su tabla pero asociada a un puerto distinto?",
+    "options": [
+      "Descarta la trama.",
+      "Actualiza la tabla asociando la MAC al nuevo puerto.",
+      "Envía una alerta de seguridad.",
+      "Bloquea ambos puertos para evitar bucles.",
+      "Ignora la trama y mantiene la tabla antigua.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C39. El protocolo UDP es preferible a TCP para aplicaciones de streaming de voz porque:",
+    "options": [
+      "Es más seguro.",
+      "No introduce retardos por retransmisión de paquetes perdidos.",
+      "Permite paquetes más grandes.",
+      "Usa menos direcciones IP.",
+      "Es compatible con switches de capa 1.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C40. En una red con máscara /28, ¿cuántas direcciones IP son utilizables para hosts?",
+    "options": ["30", "16", "14", "62", "254", "Ninguna de las anteriores."],
+    "correct": 2
+  },
+  {
+    "question": "C41. Un mensaje ICMP 'Destination Unreachable' (tipo 3, código 3) indica que:",
+    "options": [
+      "La red no existe.",
+      "El host está apagado.",
+      "El puerto de destino está cerrado.",
+      "Hay un bucle de enrutamiento.",
+      "El cortafuegos ha bloqueado el paquete.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C42. Sobre el estándar 802.1q:",
+    "options": [
+      "Define el funcionamiento del WiFi.",
+      "Es el estándar para el etiquetado de VLANs en enlaces trunk.",
+      "Sirve para el control de errores en la capa física.",
+      "Es el protocolo de enrutamiento por defecto de Internet.",
+      "Define la estructura de las direcciones MAC.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C43. Si un canal tiene una relación Señal/Ruido (SNR) de 0 dB, ¿cuál es su capacidad máxima según Shannon?",
+    "options": [
+      "Igual al ancho de banda (B).",
+      "Cero.",
+      "Infinita.",
+      "El doble del ancho de banda.",
+      "Logaritmo de B.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C44. ¿Qué tecnología permite usar el mismo cable para datos y alimentación eléctrica?",
+    "options": ["VLAN", "PoE (Power over Ethernet)", "STP", "NAT", "CSMA/CD", "Ninguna de las anteriores."],
+    "correct": 1
+  },
+  {
+    "question": "C45. En una arquitectura SNMP, el software de gestión (NMS) suele escuchar 'Traps' en el puerto:",
+    "options": ["161 UDP", "162 UDP", "161 TCP", "162 TCP", "80 TCP", "443 TCP"],
+    "correct": 1
+  },
+  {
+    "question": "C46. ¿Cuál es el tamaño máximo de la cabecera IP sin opciones?",
+    "options": ["20 bytes", "40 bytes", "64 bytes", "1500 bytes", "20 bits", "Ninguna de las anteriores."],
+    "correct": 0
+  },
+  {
+    "question": "C47. Un router recibe un paquete para 192.168.1.130. La tabla tiene: 192.168.1.0/24 y 192.168.1.128/30. ¿Qué ruta elegirá?",
+    "options": [
+      "La /24 por ser más general.",
+      "La /30 por ser más específica (prefijo más largo).",
+      "La primera que aparezca en la tabla.",
+      "Ninguna, lo descartará por seguridad.",
+      "La que tenga la interfaz eth0.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C48. ¿Qué sucede con el TTL de un paquete cuando atraviesa un Bridge?",
+    "options": [
+      "Se decrementa en 1.",
+      "Se incrementa en 1.",
+      "No varía (el bridge es capa 2).",
+      "Se resetea a 64.",
+      "El bridge descarta el paquete si el TTL es par.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C49. ¿Cuál de estos protocolos se considera de 'Estado de Enlace' (Link-State)?",
+    "options": ["RIP", "BGP", "OSPF", "IP", "UDP", "Ninguna de las anteriores."],
+    "correct": 2
+  },
+  {
+    "question": "C50. En el protocolo TCP, el mecanismo de 'Ventana Deslizante' se utiliza para:",
+    "options": [
+      "Cifrar los datos.",
+      "Control de flujo y gestión de errores.",
+      "Asignar puertos dinámicos.",
+      "Fragmentar paquetes IP.",
+      "Sincronizar el reloj de los hosts.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C51. En una arquitectura de red, ¿qué dispositivo permite separar dominios de broadcast?",
+    "options": ["Hub", "Switch de capa 2", "Repetidor", "Router", "Punto de Acceso en modo bridge", "Ninguna de las anteriores"],
+    "correct": 3
+  },
+  {
+    "question": "C52. ¿Cuál es el rango de hosts válidos para la subred 172.16.40.0/21?",
+    "options": [
+      "172.16.40.1 - 172.16.40.254",
+      "172.16.40.1 - 172.16.47.254",
+      "172.16.40.1 - 172.16.41.254",
+      "172.16.32.1 - 172.16.47.254",
+      "172.16.40.0 - 172.16.47.255",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C53. Un switch configurado con 'Store and Forward' detecta un error de CRC en una trama. ¿Qué hace con ella?",
+    "options": [
+      "La reenvía igualmente para no perder velocidad.",
+      "La descarta inmediatamente.",
+      "La corrige usando el código de Hamming y la reenvía.",
+      "La envía al router para que este decida.",
+      "Envía una trama de colisión (jam signal).",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C54. Sobre el protocolo ICMP, selecciona la afirmación CORRECTA:",
+    "options": [
+      "Es un protocolo de la capa de transporte (Capa 4).",
+      "Se utiliza para transferir archivos de configuración entre routers.",
+      "Sus mensajes se encapsulan dentro de paquetes IP.",
+      "Garantiza que los paquetes lleguen a su destino en orden.",
+      "Sustituye a ARP en redes de fibra óptica.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C55. ¿Cuál es el tamaño mínimo de una trama Ethernet (sin preámbulo) para que se puedan detectar colisiones correctamente?",
+    "options": ["20 bytes", "40 bytes", "64 bytes", "1500 bytes", "128 bytes", "Ninguna de las anteriores"],
+    "correct": 2
+  },
+  {
+    "question": "C56. En una conexión WiFi 802.11, el intervalo de tiempo que una estación debe esperar antes de intentar transmitir tras detectar el canal libre se llama:",
+    "options": ["TTL", "DIFS", "RTT", "Backoff timer", "Slot time", "Las opciones b y d son correctas"],
+    "correct": 5
+  },
+  {
+    "question": "C57. Un router recibe un paquete para la IP 10.10.10.1. Su tabla tiene: 10.10.10.0/24 vía eth0 y 10.10.10.0/28 vía eth1. ¿Por dónde sale?",
+    "options": ["eth0", "eth1", "Ambas (balanceo)", "Se descarta", "Por la ruta por defecto", "Ninguna de las anteriores"],
+    "correct": 1
+  },
+  {
+    "question": "C58. ¿Qué significa 'VLAN Trunking' (802.1q)?",
+    "options": [
+      "Unir varios cables físicos para sumar ancho de banda.",
+      "Permitir que tramas de múltiples VLANs viajen por un mismo enlace físico entre switches.",
+      "Cifrar el tráfico de las VLANs para que sea privado.",
+      "Asignar dinámicamente una IP a cada VLAN.",
+      "Eliminar los bucles en la capa de enlace.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C59. En SNMPv3, la principal mejora respecto a SNMPv1 es:",
+    "options": [
+      "Permite gestionar más dispositivos simultáneamente.",
+      "Sustituye UDP por TCP para mayor velocidad.",
+      "Añade seguridad mediante autenticación y cifrado de los datos.",
+      "Ya no usa MIBs para ahorrar memoria.",
+      "Es compatible con switches de capa 1.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C60. Si un canal tiene un ancho de banda de 4 KHz y una relación señal/ruido de 30 dB (SNR=1000), su capacidad de Shannon es aprox:",
+    "options": ["4 Kbps", "40 Kbps", "120 Kbps", "1 Mbps", "400 bps", "Ninguna de las anteriores"],
+    "correct": 1
+  },
+  {
+    "question": "C61. ¿Cuál es la dirección de red de la IP 192.168.100.50 con máscara /27?",
+    "options": [
+      "192.168.100.0",
+      "192.168.100.32",
+      "192.168.100.48",
+      "192.168.100.64",
+      "192.168.100.16",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C62. Un Firewall que inspecciona el estado de las conexiones (Stateful Inspection) se diferencia de uno de filtrado de paquetes simple en:",
+    "options": [
+      "Es más rápido.",
+      "Solo filtra por dirección MAC.",
+      "Recuerda si un paquete entrante es respuesta a una petición saliente previa.",
+      "No utiliza reglas ALLOW/DROP.",
+      "Trabaja únicamente en la Capa 1.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C63. El protocolo UDP es 'orientado a transacciones' porque:",
+    "options": [
+      "Garantiza que el dinero llegue al banco.",
+      "No requiere establecimiento previo de conexión (handshake).",
+      "Utiliza números de secuencia para reordenar datos.",
+      "Solo funciona en redes locales.",
+      "Es más seguro que TCP.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C64. ¿Qué campo de la trama Ethernet permite al receptor sincronizar su reloj con el del emisor?",
+    "options": ["Preámbulo", "SFD (Start Frame Delimiter)", "Ethertype", "FCS (Frame Check Sequence)", "MAC Origen", "Ninguna de las anteriores"],
+    "correct": 0
+  },
+  {
+    "question": "C65. En una red xDSL, el dispositivo situado en la central telefónica que termina las conexiones de los usuarios se llama:",
+    "options": ["Router SOHO", "Splitter", "DSLAM", "Switch ATM", "Proxy", "Ninguna de las anteriores"],
+    "correct": 2
+  },
+  {
+    "question": "C66. Un paquete IP de 4000 bytes debe atravesar una red con una MTU de 1500 bytes. ¿Qué sucede?",
+    "options": [
+      "El paquete se descarta.",
+      "El router fragmenta el paquete en trozos más pequeños.",
+      "Se comprime el paquete automáticamente.",
+      "Se pide al emisor que use una MTU menor mediante ICMP.",
+      "Las opciones b y d son posibles dependiendo del bit DF (Don't Fragment).",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 4
+  },
+  {
+    "question": "C67. La dirección IPv4 127.0.0.1 se utiliza para:",
+    "options": [
+      "Direccionamiento privado en empresas.",
+      "Identificar el gateway por defecto.",
+      "Pruebas de loopback (referencia al propio equipo).",
+      "Broadcast en la red local.",
+      "Configuración automática de IPs (APIPA).",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C68. ¿Qué protocolo se utiliza habitualmente para asignar direcciones IP de forma dinámica en una red local?",
+    "options": ["ARP", "DNS", "DHCP", "SNMP", "RIP", "Ninguna de las anteriores"],
+    "correct": 2
+  },
+  {
+    "question": "C69. ¿Qué sucede si el campo Checksum de la cabecera IP de un paquete recibido no coincide con el calculado por el router?",
+    "options": [
+      "El router pide la retransmisión al emisor.",
+      "El router descarta el paquete silenciosamente.",
+      "El router intenta corregir el error.",
+      "Se marca el paquete como 'sospechoso' y se envía.",
+      "Se genera un mensaje ICMP 'Bad Checksum'.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C70. En el modelo TCP/IP, ¿en qué capa operan los puertos (ej. puerto 80)?",
+    "options": ["Capa de Internet", "Capa de Acceso a Red", "Capa de Transporte", "Capa de Aplicación", "Capa Física", "Ninguna de las anteriores"],
+    "correct": 2
+  },
+  {
+    "question": "C71. ¿Cuál es el rango de IPs privadas de Clase B según el RFC1918?",
+    "options": [
+      "10.0.0.0 - 10.255.255.255",
+      "192.168.0.0 - 192.168.255.255",
+      "172.16.0.0 - 172.31.255.255",
+      "169.254.0.0 - 169.254.255.255",
+      "127.0.0.0 - 127.255.255.255",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C72. Un 'socket' se define técnicamente como la combinación de:",
+    "options": [
+      "IP y MAC.",
+      "IP y Puerto.",
+      "Puerto y MAC.",
+      "TCP y UDP.",
+      "Payload y Cabecera.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C73. En una red Ethernet con CSMA/CD, ¿qué ocurre cuando se detecta una colisión?",
+    "options": [
+      "Se ignora y se sigue transmitiendo.",
+      "Las estaciones dejan de transmitir y esperan un tiempo aleatorio.",
+      "El switch expulsa a los equipos que han colisionado.",
+      "Se aumenta la velocidad para compensar.",
+      "Se genera un token para el siguiente turno.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C74. El retardo de propagación depende principalmente de:",
+    "options": [
+      "El ancho de banda del enlace.",
+      "La velocidad de la luz/señal en el medio y la distancia física.",
+      "El tamaño del paquete.",
+      "El número de usuarios conectados.",
+      "La carga del procesador del router.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C75. ¿Cuál es el objetivo principal del protocolo Spanning Tree (STP) en una red de switches?",
+    "options": [
+      "Acelerar el reenvío de tramas.",
+      "Permitir el uso de VLANs.",
+      "Evitar bucles de capa 2 en topologías redundantes.",
+      "Asignar IPs a los switches.",
+      "Controlar el acceso WiFi.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C76. En una comunicación TCP, el 'Three-way Handshake' consiste en los mensajes:",
+    "options": ["SYN, SYN-ACK, ACK", "SYN, ACK, DATA", "FIN, ACK, FIN-ACK", "HELLO, OK, BEGIN", "GET, POST, PUT", "Ninguna de las anteriores"],
+    "correct": 0
+  },
+  {
+    "question": "C77. ¿Qué tipo de registro DNS asocia un nombre de dominio con una dirección IPv4?",
+    "options": ["MX", "CNAME", "PTR", "A", "AAAA", "NS"],
+    "correct": 3
+  },
+  {
+    "question": "C78. Un Proxy se diferencia de un NAT en que el Proxy:",
+    "options": [
+      "Trabaja a nivel de aplicación y puede ver/modificar el contenido de los datos.",
+      "Es más rápido porque no cambia la IP.",
+      "Solo funciona con direcciones MAC.",
+      "No permite la conexión a Internet.",
+      "Es un hardware, mientras que el NAT es solo software.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C79. En una red WiFi, el modo 'Infrastructure' requiere obligatoriamente:",
+    "options": ["Un cable de fibra óptica.", "Un Punto de Acceso (AP).", "Que todos los nodos sean routers.", "Que no haya interferencias.", "Que las estaciones estén a menos de 1 metro.", "Ninguna de las anteriores"],
+    "correct": 1
+  },
+  {
+    "question": "C80. ¿Qué significa que una máscara de subred sea 'variable' (VLSM)?",
+    "options": [
+      "Que cambia cada hora.",
+      "Que permite dividir una red en subredes de distintos tamaños para optimizar IPs.",
+      "Que solo funciona con IPv6.",
+      "Que el router la calcula automáticamente sin intervención humana.",
+      "Que depende del número de cables conectados.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C81. ¿Cuál es la máscara de subred abreviada para 255.255.255.192?",
+    "options": ["/24", "/25", "/26", "/27", "/28", "/30"],
+    "correct": 2
+  },
+  {
+    "question": "C82. En el protocolo TCP, el campo 'Window Size' sirve para:",
+    "options": [
+      "Indicar el tamaño de la pantalla del usuario.",
+      "Controlar el flujo informando de cuántos bytes puede recibir el receptor antes de enviar un ACK.",
+      "Medir el tiempo de ida y vuelta (RTT).",
+      "Fragmentar los paquetes IP.",
+      "Establecer la prioridad del tráfico.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C83. El comando 'traceroute' (o 'tracert') utiliza el campo TTL para descubrir los saltos. ¿Qué mensaje ICMP recibe el emisor de cada router intermedio?",
+    "options": ["Echo Reply", "Destination Unreachable", "Time Exceeded", "Source Quench", "Redirect", "Ninguna de las anteriores"],
+    "correct": 2
+  },
+  {
+    "question": "C84. ¿Qué ventaja tiene la fibra óptica sobre el par de cobre?",
+    "options": [
+      "Es más barata de instalar.",
+      "Inmune a interferencias electromagnéticas y mayor ancho de banda.",
+      "No necesita routers para funcionar.",
+      "Es más resistente a dobleces bruscos.",
+      "Permite usar hubs de 100 puertos.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C85. En una red 192.168.1.0/24, ¿cuál es la dirección de broadcast?",
+    "options": ["192.168.1.0", "192.168.1.1", "192.168.1.254", "192.168.1.255", "192.168.0.255", "Ninguna de las anteriores"],
+    "correct": 3
+  },
+  {
+    "question": "C86. ¿Qué puerto utiliza el protocolo HTTP por defecto?",
+    "options": ["21", "22", "25", "80", "443", "110"],
+    "correct": 3
+  },
+  {
+    "question": "C87. Sobre las redes de 'conmutación de circuitos' (ej. telefonía tradicional), es cierto que:",
+    "options": [
+      "Los recursos se reservan exclusivamente para la conexión mientras esta dura.",
+      "Son más eficientes para el tráfico de datos intermitente que la conmutación de paquetes.",
+      "No existe establecimiento de conexión.",
+      "Cada paquete puede seguir una ruta distinta.",
+      "Se basan en el protocolo IP.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C88. El nivel de ruido en un canal se suele medir en unidades de:",
+    "options": ["Watios", "Hercios", "Decibelios (dB)", "Voltios", "Baudios", "Ninguna de las anteriores"],
+    "correct": 2
+  },
+  {
+    "question": "C89. ¿Cuál de estos es un protocolo de 'Capa de Aplicación'?",
+    "options": ["IP", "TCP", "UDP", "DNS", "ICMP", "ARP"],
+    "correct": 3
+  },
+  {
+    "question": "C90. En una red con máscara /30, ¿cuántas IPs de host útiles hay?",
+    "options": ["1", "2", "4", "6", "14", "30"],
+    "correct": 1
+  },
+  {
+    "question": "C91. ¿Qué tecnología de red inalámbrica está definida por el estándar IEEE 802.15 (Bluetooth)?",
+    "options": ["WLAN", "WPAN", "WMAN", "WWAN", "WDS", "Ninguna de las anteriores"],
+    "correct": 1
+  },
+  {
+    "question": "C92. Un switch 'aprende' las direcciones MAC de los dispositivos mirando el campo:",
+    "options": ["MAC Destino de la trama.", "MAC Origen de la trama.", "IP Origen del paquete.", "Ethertype.", "Preámbulo.", "Ninguna de las anteriores"],
+    "correct": 1
+  },
+  {
+    "question": "C93. ¿Cuál es el rango de puertos 'bien conocidos' (well-known ports)?",
+    "options": ["0 - 1023", "1024 - 49151", "49152 - 65535", "1 - 65535", "0 - 255", "Ninguna de las anteriores"],
+    "correct": 0
+  },
+  {
+    "question": "C94. En el contexto de firewalls, una 'Zona Desmilitarizada' (DMZ) se usa para:",
+    "options": [
+      "Equipos que no tienen antivirus.",
+      "Servidores públicos que deben ser accesibles desde Internet pero aislados de la red interna.",
+      "Redes que no usan el protocolo IP.",
+      "Conectar switches de distintos fabricantes.",
+      "Aumentar la velocidad del WiFi.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C95. ¿Qué sucede con el valor del TTL cuando un paquete pasa de una red WiFi a una red Ethernet a través de un AP en modo infraestructura?",
+    "options": [
+      "Se decrementa en 1.",
+      "Se decrementa en 2.",
+      "No cambia.",
+      "Se pone a 0.",
+      "Se dobla.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C96. El protocolo que permite a un host IPv6 descubrir la MAC de un vecino (sustituto de ARP) es:",
+    "options": ["ICMPv6 (Neighbor Discovery Protocol)", "DHCPv6", "DNSv6", "RIPng", "OSPFv3", "Ninguna de las anteriores"],
+    "correct": 0
+  },
+  {
+    "question": "C97. ¿Cuál es la principal desventaja de la topología en bus?",
+    "options": [
+      "Es muy cara.",
+      "Si el cable principal se corta, toda la red deja de funcionar.",
+      "Requiere un switch muy potente.",
+      "No permite usar TCP.",
+      "Los cables son muy gruesos.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C98. En el protocolo TCP, si un emisor no recibe el ACK de un segmento antes de que expire su temporizador (timeout):",
+    "options": [
+      "Cierra la conexión.",
+      "Envía un mensaje ICMP de error.",
+      "Retransmite el segmento.",
+      "Ignora la pérdida y sigue con el siguiente.",
+      "Pide al receptor que reinicie.",
+      "Ninguna de las anteriores"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C99. Una dirección MAC tiene una longitud de:",
+    "options": ["32 bits", "48 bits", "64 bits", "128 bits", "24 bits", "Ninguna de las anteriores"],
+    "correct": 1
+  },
+  {
+    "question": "C100. ¿Qué protocolo se utiliza habitualmente para enviar correos electrónicos desde un cliente a un servidor?",
+    "options": ["POP3", "IMAP", "SMTP", "HTTP", "FTP", "SNMP"],
+    "correct": 2
   }
 ]
