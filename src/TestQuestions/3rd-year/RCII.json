@@ -1978,5 +1978,208 @@
       "10.255.255.0"
     ],
     "correct": 0
+  },
+  {
+    "question": "C21. Selecciona la respuesta adecuada (Nyquist / Shannon):",
+    "options": [
+      "Según Nyquist, NUNCA se podrá transmitir a una velocidad en bits/seg mayor que el doble del ancho de banda del canal por donde se transmite medido en Hercios.",
+      "La capacidad de canal de Shannon es la misma que la de Nyquist pero restando el efecto de la relación Señal/Ruido para poder medirla en baudios.",
+      "En un canal en el que los símbolos que se transmiten son bits, la capacidad del canal coincide con el doble de su ancho de banda medido en Hercios.",
+      "Los baudios son los símbolos que se transmiten cuando estos no son bits.",
+      "La capacidad de canal es el número mínimo de bits/seg que se pueden transmitir por un enlace de datos sin que haya errores.",
+      "El ancho de banda es la capacidad de un canal de comunicaciones si este canal va por radio-frecuencia."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C22. Sea un router que acaba de inicializarse y con la tabla de rutas vacía. Se teclean varios comandos 'ip route add'. Selecciona la opción correcta para un datagrama dirigido a 22.10.5.14:",
+    "options": [
+      "Un datagrama dirigido a 22.10.0.0 es enrutado hacia 20.20.20.20",
+      "Un datagrama dirigido a 22.10.9.72 es enrutado hacia 20.20.20.20",
+      "Un datagrama dirigido a 22.10.5.59 es enrutado hacia 22.22.22.22",
+      "Un datagrama dirigido a 22.10.0.1 es enrutado hacia 24.24.24.24",
+      "Un datagrama dirigido a 22.10.3.4 es enrutado hacia 22.22.22.22",
+      "Un datagrama dirigido a 22.10.5.14 es enrutado hacia 22.22.22.22"
+    ],
+    "correct": 5
+  },
+  {
+    "question": "C23. Si un canal de transmisión tiene un ancho de banda de 1 MHz y el conjunto de interfaces es capaz de distinguir 64 símbolos distintos, responde adecuadamente:",
+    "options": [
+      "La capacidad máxima del canal es de 12 Mbps",
+      "La capacidad máxima del canal es de 12 Mbaudios",
+      "La capacidad máxima del canal es de 64 Mbps",
+      "La capacidad máxima del canal es de 64 Mbaudios",
+      "La capacidad máxima del canal es de 1 Mbaudio",
+      "La capacidad máxima del canal es de 2 Mbps"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C24. Dos usuarios de una red SOHO quieren establecer videoconferencia. Sus pasarelas usan SNAT simétrico con persistencia de puerto. Selecciona la opción adecuada:",
+    "options": [
+      "La comunicación sólo puede establecerse pasando los paquetes de videoconferencia a través de un servidor público llamado ancla.",
+      "Los usuarios se conectan al servidor ancla exclusivamente para dar información de registro y monitorización.",
+      "El hecho de que haya persistencia de puerto de origen implica que ambos extremos abrirán el mismo puerto.",
+      "SNAT simétrico y persistencia de puerto es aprovechable para conectar usuarios SOHO con UDP.",
+      "Si no hubiese persistencia de puerto, la conexión directa Peer2Peer se activaría mediante Port-Triggering.",
+      "Para utilizar persistencia de puerto y activar el UDP Hole sería necesario un Full-Cone NAT."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C25. Una organización tiene 2000 equipos y conmutadores de 24 puertos. Selecciona la opción más adecuada (escalabilidad/coste):",
+    "options": [
+      "Utilizar una topología en estrella con los servidores separados en una granja y los conmutadores interconectados en cascada.",
+      "Topología de 3 niveles de agregación con enrutamiento en el núcleo e implementación de VLAN para controlar dominios de broadcast.",
+      "Topología de 2 niveles de agregación, conmutadores con VLAN y un router/cortafuegos en el nivel superior.",
+      "Topología en anillo, utilizando fibra óptica para la interconexión de equipos y servidores.",
+      "Topología mixta anillo-estrella.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "C26. Si al ejecutar 'ping 193.147.81.254' aparece 'Destination Host Unreachable', ¿cuál es la causa?",
+    "options": [
+      "No hay una ruta hacia ese host en el equipo origen.",
+      "El enlace está caído aunque la interfaz esté operativa.",
+      "El equipo destino no está accesible (apagado o caído).",
+      "No es una dirección IP de host válida.",
+      "La ruta es demasiado larga y el campo TTL se ha agotado.",
+      "Algún enrutador intermedio no tiene en su tabla de rutas una ruta hacia ese destino."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C27. Un dispositivo WiFi se configura en modo Ad-Hoc cuando su función principal es:",
+    "options": [
+      "Compartir su propia conexión a internet con otros dispositivos.",
+      "Conectarse a un punto de acceso inalámbrico para acceder a la red.",
+      "Crear una red inalámbrica directa con otro dispositivo sin un router.",
+      "Amplificar la señal de una red WiFi existente.",
+      "Conectar dos segmentos de red cableados de forma inalámbrica.",
+      "Actuar como un servidor DHCP para la red inalámbrica."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C28. En una topología estándar SNMP:",
+    "options": [
+      "Los agentes se envían entre sí avisos llamados 'traps'.",
+      "SNMP actúa como protocolo de aplicación sobre transporte TCP en los puertos 161 y 162.",
+      "Un gestor NMS actúa como servidor y recibe la información enviada por los agentes que actúan como clientes.",
+      "SNMP es un protocolo de transporte UDP que abre el puerto 161 en el NMS y el 162 en los agentes.",
+      "El gestor NMS es un software que consulta a los agentes (cliente/servidor) y recibe avisos no programados ('traps')."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "C29. Si un paquete IP sale con TTL=64 y atraviesa 9 routers IP, 12 switches, 2 hubs y varios AP WiFi, ¿con qué valor llega?",
+    "options": [
+      "55",
+      "52",
+      "48",
+      "60",
+      "35",
+      "62"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C30. ¿Cuál NO es una dirección válida para la interfaz de un router con máscara de más de 11 bits?",
+    "options": [
+      "10.63.0.0",
+      "10.64.64.64",
+      "10.31.255.255",
+      "10.0.255.255",
+      "10.96.255.0",
+      "10.0.255.255"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C31. Sobre la estructura de Internet:",
+    "options": [
+      "Los ISP de nivel 1 utilizan siempre redes de acceso para conectarse a sus clientes.",
+      "Un Punto Neutro es un lugar virtual de interconexión de routers de diferentes ISP.",
+      "Para conectar ISP de diferentes niveles siempre se utilizan redes de acceso.",
+      "La estructura en ISP de diferentes niveles está gestionada por el IANA.",
+      "Un ISP de nivel 1 y otro ISP de nivel 3 nunca se conectan entre sí; lo hacen a través de ISP de nivel 2.",
+      "Cuando varios ISP se quieren conectar entre sí para el intercambio de rutas, lo hacen mediante PoP."
+    ],
+    "correct": 4
+  },
+  {
+    "question": "C32. Respecto a los retardos en Internet:",
+    "options": [
+      "El retardo de procesamiento es el retardo al procesar el paquete y enviarlo a la aplicación.",
+      "El retardo global es la suma de todos los retardos y se conoce como RTT.",
+      "El retardo de transmisión es el tiempo que tarda un paquete en viajar por el medio.",
+      "El retardo de propagación es el tiempo que tarda la interfaz en depositar el paquete en el medio.",
+      "El retardo de cola se produce cuando se reserva tráfico por ECN.",
+      "El retardo de cola se produce cuando hay paquetes precedentes en el mismo enlace de salida."
+    ],
+    "correct": 5
+  },
+  {
+    "question": "C33. Sobre esquemas de codificación:",
+    "options": [
+      "Manchester incluye control de errores.",
+      "FastEthernet cambió Manchester por fibra.",
+      "NRZ-I con codificación 4B5B se usa para evitar largas secuencias de ceros y unos.",
+      "Manchester diferencial permitió GigabitEthernet.",
+      "Manchester reduce el ancho de banda necesario.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "C34. Responde adecuadamente sobre conmutación:",
+    "options": [
+      "La conmutación de circuitos virtuales se basa en identificadores de conexión.",
+      "Las redes troncales usan conmutación de circuitos.",
+      "La conmutación de paquetes es menos eficaz.",
+      "Ethernet es conmutación por circuito virtual.",
+      "En circuitos virtuales no hay establecimiento de conexión.",
+      "Los paquetes siempre van en orden."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "C38. Capa de transporte TCP/UDP:",
+    "options": [
+      "TCP no tiene control de flujo.",
+      "UDP tiene secuencias.",
+      "TCP no establece conexiones.",
+      "UDP sólo ofrece direccionamiento mediante puertos.",
+      "UDP es más completo que TCP.",
+      "Sólo se diferencian en retransmisión."
+    ],
+    "correct": 3
+  },
+  {
+    "question": "C39. Conectividad IP pública/privada:",
+    "options": [
+      "RFC1918 impide rutas privadas.",
+      "SNAT cambia IP destino.",
+      "RFC1918 se activa manualmente.",
+      "SNAT cambia IP origen entrante.",
+      "Proxy mantiene cabecera IP.",
+      "DNAT es dinámico y SNAT estático."
+    ],
+    "correct": 5
+  },
+  {
+    "question": "C40. 802.11 y cabecera con 4 direcciones MAC:",
+    "options": [
+      "WDS conecta estaciones.",
+      "Infrastructure conecta estaciones entre sí.",
+      "Ad-Hoc con WDS conecta redes.",
+      "AP enruta paquetes IP.",
+      "WDS incluye direcciones IP en cabecera.",
+      "Ninguna de las anteriores."
+    ],
+    "correct": 5
   }
 ]
