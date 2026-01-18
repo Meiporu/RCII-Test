@@ -120,6 +120,8 @@
      text-align: left;
      white-space: nowrap;
      overflow: hidden;
+     text-align: left;
+     text-overflow: ellipsis; 
  }
 
  .grid-item.skipped-row {
@@ -209,29 +211,25 @@
  }
 
 .options {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
-
-    align-items: center; 
+    display: grid;
+    /* Crea dos columnas de igual tamaño */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .option {
-  
-    width: 100%;
-    max-width: 500px; 
-    padding: 15px 20px;
-    background-color: var(--bg-dark);
-    border: 1px solid var(--cyan-dark);
-    color: var(--cyan-bright);
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    text-align: center; 
+    width: 100%; 
+    margin: 0;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 60px;
 }
+
+
 
 .option:hover {
     background-color: var(--cyan-dark);

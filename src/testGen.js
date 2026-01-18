@@ -5,7 +5,7 @@ let correctAnswers = 0;
 let userAnswers = [];
 
 // Cargar preguntas
-fetch('./src/TestQuestions/3rd-year/RCII.json')
+fetch('./src/preguntas.json')
     .then(response => response.json())
     .then(data => {
         questions = data;
