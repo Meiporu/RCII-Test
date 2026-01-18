@@ -1,7 +1,7 @@
 # RCII-Test
 
 Requisitos: 
-- Navegador comtabile con JavaScript
+- Navegador compatible con JavaScript
 
 Uso:
 
@@ -17,3 +17,4 @@ Uso:
 *************************************************************************************************
 
 Solo se aceptarán correcciones vía pull request y/o issues.
+
