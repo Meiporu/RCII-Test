@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [
     {
         "question": "¿Cuál es la unidad de medida del ancho de banda en el dominio de la frecuencia?",
@@ -3110,3 +3111,507 @@
     "correct": 2
   }
 ]
+=======
+[
+  {
+    "question": "En el marco de la STC 292/2000, el Tribunal Constitucional establece que el 'habeas data' no es solo un derecho de exclusión, sino un derecho de:",
+    "options": [
+      "Indemnización automática ante cualquier error en la base de datos.",
+      "Control sobre la veracidad de la información pública únicamente.",
+      "Autodeterminación informativa que permite decidir qué datos puede conocer un tercero.",
+      "Vigilancia ciudadana sobre las actividades del Poder Judicial."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Según el artículo 8.2 de la LOPDGDD, para que un tratamiento se base en el 'cumplimiento de una obligación legal', la norma habilitante debe tener:",
+    "options": [
+      "Rango de Ley en todo caso, sin que un Reglamento pueda ser la base única.",
+      "Rango de Real Decreto-Ley de extrema necesidad.",
+      "Rango de Ley, aunque dicha ley pueda remitir a un reglamento para concretar el tratamiento.",
+      "Carácter de Directiva europea no traspuesta aún al derecho interno."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "En relación con el 'interés legítimo' (Art. 6.1.f RGPD), ¿en qué supuesto prohíbe taxativamente la LOPDGDD su uso como base única de legitimación?",
+    "options": [
+      "Cuando el responsable sea una PYME con menos de 50 trabajadores.",
+      "Cuando el tratamiento lo realicen autoridades públicas en el ejercicio de sus funciones.",
+      "Cuando los datos se hayan obtenido de fuentes de acceso público.",
+      "Cuando se trate de datos de contacto de personas físicas que prestan servicios en una persona jurídica."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué consecuencia jurídica establece la STC 11/1998 (Caso RENFE) sobre el uso de datos de afiliación sindical para el descuento de salarios por huelga?",
+    "options": [
+      "Es lícito si el convenio colectivo lo autoriza expresamente.",
+      "Vulnera el derecho a la protección de datos por quiebra del principio de finalidad y el derecho a la libertad sindical.",
+      "Es una medida de seguridad válida para evitar el fraude laboral.",
+      "Solo vulnera la ley si la empresa no informa a la AEPD previamente."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho a la portabilidad (Art. 20 RGPD) presenta una limitación técnica específica; solo puede ejercerse sobre datos que:",
+    "options": [
+      "Hayan sido generados por el responsable mediante análisis de Big Data.",
+      "El interesado haya facilitado al responsable, excluyendo datos inferidos por este.",
+      "Sean exclusivamente de carácter económico o financiero.",
+      "Tengan una antigüedad inferior a dos años desde su recogida."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "De acuerdo con el artículo 9 de la LOPDGDD, ¿cuál de estas categorías de datos NO puede ser tratada basándose exclusivamente en el consentimiento del interesado?",
+    "options": [
+      "Datos de salud para fines de investigación médica.",
+      "Datos de religión, ideología o creencias con el fin principal de identificar dicha condición.",
+      "Datos biométricos para el control de acceso a centros de trabajo.",
+      "Datos de origen étnico o racial para fines estadísticos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En una evaluación de impacto (EIPD), el concepto de 'riesgo residual' se refiere a aquel que persiste:",
+    "options": [
+      "Antes de aplicar cualquier medida de seguridad técnica.",
+      "Después de que la AEPD haya sancionado a la empresa.",
+      "Tras la aplicación de las medidas y garantías previstas para mitigar el riesgo inicial.",
+      "Cuando el encargado del tratamiento entra en situación de insolvencia."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Según el Caso Riders (STC 2021), ¿cuál es la obligación de transparencia de la empresa respecto a los algoritmos de asignación de trabajo?",
+    "options": [
+      "Publicar el código fuente íntegro en una plataforma de software libre.",
+      "Informar a los representantes de los trabajadores sobre los parámetros y reglas en que se basan los algoritmos que afectan a las condiciones laborales.",
+      "Solo informar si el algoritmo produce un despido disciplinario.",
+      "No hay obligación de informar si el algoritmo es un secreto comercial protegido por patente."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué particularidad introduce la LOPDGDD respecto a la 'transparencia' en el uso de sistemas de videovigilancia?",
+    "options": [
+      "Obliga a poner un código QR en el cartel informativo que lleve a la política de privacidad completa.",
+      "Permite la omisión del deber de información si existe riesgo inminente de delito.",
+      "Establece que el cartel amarillo informativo se considera información de 'primer nivel' suficiente para el acceso al lugar.",
+      "Obliga a guardar las imágenes durante un mínimo de 6 meses."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "El principio de 'integridad de los datos' en el RGPD se diferencia del de 'exactitud' en que el primero:",
+    "Options": [
+      "Se refiere a que el dato sea veraz y actual respecto al interesado.",
+      "Garantiza la protección contra el tratamiento no autorizado, la pérdida o la alteración accidental.",
+      "Obliga a borrar los datos que no sean necesarios para la finalidad.",
+      "Exige que los datos sean legibles por cualquier sistema operativo."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el artículo 37.1 de la LOPDGDD, los órganos de gobierno de las profesiones colegiadas (Colegios Profesionales):",
+    "options": [
+      "Están exentos de nombrar un Delegado de Protección de Datos (DPD).",
+      "Deben nombrar obligatoriamente un DPD.",
+      "Solo deben nombrar DPD si tratan datos de más de 50.000 colegiados.",
+      "Sustituyen a la AEPD en el ejercicio de la potestad sancionadora."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'consulta previa' a la AEPD tras una EIPD (Art. 36 RGPD) es obligatoria cuando:",
+    "options": [
+      "El coste de las medidas de seguridad supere el 10% del presupuesto.",
+      "El responsable considere que el tratamiento entraña un alto riesgo y no puede mitigarlo.",
+      "Se trate de una empresa extranjera operando en España.",
+      "El tratamiento se base exclusivamente en el interés legítimo."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué establece la LOPDGDD sobre el tratamiento de datos de naturaleza penal (Art. 10) realizados por particulares?",
+    "options": [
+      "Está prohibido en todo caso para proteger la reinserción social.",
+      "Solo es posible si se cuenta con el consentimiento del condenado.",
+      "Es lícito cuando sea necesario para obtener la tutela judicial efectiva (ej. abogados en el ejercicio de sus funciones).",
+      "Solo puede realizarse si los datos tienen más de 10 años de antigüedad."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "El principio de 'limitación del plazo de conservación' obliga a que los datos sean bloqueados cuando:",
+    "options": [
+      "El usuario deja de pagar la suscripción al servicio.",
+      "Se ha cumplido la finalidad del tratamiento o el interesado ejerce su derecho de supresión, pero existen obligaciones legales de retención.",
+      "La AEPD inicia una inspección de oficio.",
+      "El servidor alcanza su capacidad máxima de almacenamiento."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En la jerarquía del Derecho de la Unión, una 'Decisión de Adecuación' de la Comisión Europea sirve para:",
+    "options": [
+      "Anular una ley española que contradiga el RGPD.",
+      "Permitir la transferencia internacional de datos a un tercer país sin necesidad de garantías adicionales.",
+      "Multar directamente a una multinacional tecnológica.",
+      "Nombrar al Presidente del Comité Europeo de Protección de Datos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'resiliencia' de los sistemas (Art. 32 RGPD) es una medida de seguridad técnica que garantiza:",
+    "options": [
+      "La capacidad de los datos de no ser borrados por error del usuario.",
+      "La capacidad de recuperar la disponibilidad y el acceso a los datos en caso de incidente físico o técnico.",
+      "Que el sistema sea compatible con versiones antiguas de Windows.",
+      "Que los datos personales no salgan nunca del territorio nacional."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el Tema 1, ¿qué distingue a la 'Ley Orgánica' de la 'Ley Ordinaria' respecto a la votación en el Congreso?",
+    "options": [
+      "La Orgánica requiere mayoría simple; la Ordinaria mayoría absoluta.",
+      "La Orgánica requiere mayoría absoluta en una votación final sobre el conjunto del proyecto.",
+      "La Ordinaria requiere el voto favorable de dos tercios de la cámara.",
+      "Ambas requieren exactamente el mismo número de votos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho de 'oposición' (Art. 21 RGPD) tiene una peculiaridad cuando se trata de marketing directo:",
+    "options": [
+      "El responsable puede ignorar la oposición si tiene interés comercial.",
+      "El interesado debe justificar sus motivos personales para oponerse.",
+      "El interesado tiene un derecho absoluto a que cesen los tratamientos para dicho fin, sin necesidad de justificación.",
+      "Solo puede ejercerse si el usuario no ha comprado nada en los últimos 6 meses."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "En el contexto de la 'pseudonimización', el RGPD exige que la información adicional que permite reidentificar al sujeto:",
+    "options": [
+      "Sea destruida inmediatamente tras el proceso.",
+      "Se guarde en un servidor público gestionado por el Estado.",
+      "Se mantenga por separado y esté sujeta a medidas técnicas y organizativas para evitar la atribución.",
+      "Sea accesible a todos los empleados del departamento de marketing."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "La 'neutralidad tecnológica' del RGPD implica que el Reglamento se aplica a:",
+    "options": [
+      "Solo a tratamientos realizados mediante Inteligencia Artificial.",
+      "Tratamientos total o parcialmente automatizados y a tratamientos no automatizados contenidos en un fichero.",
+      "Únicamente a servicios prestados a través de plataformas en la nube.",
+      "Solo a los datos que viajan a través de fibra óptica."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "De acuerdo con el artículo 14 de la LOPDGDD, el ejercicio de los derechos de acceso, rectificación, supresión y oposición (ARSO):",
+    "options": [
+      "Puede ser denegado si el interesado tiene deudas pendientes con la empresa.",
+      "Es gratuito, aunque se puede cobrar un canon razonable si las solicitudes son manifiestamente infundadas o excesivas.",
+      "Requiere siempre la firma de un abogado para ser válido.",
+      "Solo puede realizarse a través de la sede electrónica de la AEPD."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En la 'sociedad expuesta' de Byung-Chul Han (Tema 2), la transparencia se convierte en una 'coacción' porque:",
+    "options": [
+      "Obliga a los gobiernos a publicar sus presupuestos.",
+      "Elimina la distancia y el secreto, transformando la libertad en una exposición constante para el mercado.",
+      "Hace que el software sea más barato para los usuarios.",
+      "Obliga a todos los ciudadanos a tener una cuenta en redes sociales."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué sucede si un interesado fallecido prohibió expresamente el acceso a sus datos a sus herederos?",
+    "options": [
+      "Los herederos pueden acceder de todos modos invocando el Código Civil.",
+      "La prohibición debe respetarse, salvo que el acceso sea necesario para proteger derechos del propio fallecido ante terceros.",
+      "La AEPD decidirá en un juicio de arbitraje.",
+      "Los datos deben ser borrados automáticamente al recibir el certificado de defunción."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El 'derecho a la rectificación' incluye no solo corregir datos inexactos, sino también:",
+    "options": [
+      "Cambiar el nombre del interesado por un alias creativo.",
+      "Completar los datos personales que sean incompletos, inclusive mediante una declaración adicional.",
+      "Borrar el historial de compras de los últimos 5 años.",
+      "Solicitar que el banco le asigne un nuevo número de cuenta."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el artículo 32 de la LOPDGDD, el bloqueo de datos consiste en:",
+    "options": [
+      "Apagar los servidores durante el fin de semana.",
+      "La identificación y reserva de los datos, impidiendo su tratamiento excepto para ponerlos a disposición de autoridades judiciales o administrativas.",
+      "Cifrar los datos y tirar la llave para que nadie pueda verlos.",
+      "Publicar una lista de usuarios que han solicitado la supresión de sus datos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En una transferencia internacional de datos a EE.UU. sin decisión de adecuación, el responsable puede usar 'cláusulas contractuales tipo' (SCC), que son:",
+    "options": [
+      "Contratos estándar aprobados por la Comisión Europea que garantizan protecciones adecuadas.",
+      "Promesas verbales del proveedor de servicios de que no usará los datos.",
+      "Leyes estatales de EE.UU. que coinciden con el RGPD.",
+      "Documentos firmados ante la ONU para garantizar la paz digital."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "El principio de 'limitación de la finalidad' permite el tratamiento posterior de datos personales si el fin es:",
+    "options": [
+      "El marketing de productos similares a los comprados originalmente.",
+      "Fines de archivo en interés público, investigación científica, histórica o fines estadísticos.",
+      "La venta de la base de datos a otra empresa del grupo.",
+      "El entrenamiento de una IA para fines militares."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Un 'Registro de Actividades de Tratamiento' (RAT) debe contener obligatoriamente:",
+    "options": [
+      "El nombre y dirección de cada uno de los interesados.",
+      "La descripción de las categorías de interesados y de las categorías de datos personales.",
+      "El código fuente de las aplicaciones utilizadas.",
+      "La lista de sueldos de los administradores de sistemas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el sistema judicial español (Tema 1), el orden jurisdiccional encargado de revisar las sanciones impuestas por la AEPD es:",
+    "options": [
+      "El Civil.",
+      "El Penal.",
+      "El Contencioso-Administrativo.",
+      "El Social."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "El concepto de 'minimización de datos' implica que el responsable debe:",
+    "options": [
+      "Reducir el tamaño de los archivos mediante compresión .zip.",
+      "Limitar la recogida a lo estrictamente necesario en relación con los fines del tratamiento.",
+      "Usar la menor cantidad de servidores posibles.",
+      "Recoger solo datos de personas que midan menos de 1,50 metros."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es la edad mínima que permite el RGPD (como margen para los Estados) para el consentimiento infantil?",
+    "options": [
+      "Entre 13 y 16 años.",
+      "Siempre 18 años.",
+      "No hay límite inferior, depende de la madurez del niño.",
+      "Exactamente 14 años en toda la Unión Europea."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "La 'autonomía' como elemento de la dignidad (Tema 2) se ve amenazada por el Big Data cuando:",
+    "options": [
+      "El sistema nos recomienda libros que nos gustan.",
+      "La perfilación predictiva condiciona o predetermina las opciones de vida de la persona antes de que esta decida.",
+      "Los ordenadores son más rápidos que el pensamiento humano.",
+      "Internet es gratuito para todos los ciudadanos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Si una empresa de 300 trabajadores NO tiene DPD y realiza perfiles de comportamiento de sus empleados, comete una infracción:",
+    "options": [
+      "Leve.",
+      "Grave o muy grave, según la LOPDGDD.",
+      "No comete infracción si el algoritmo es eficiente.",
+      "Solo si hay una denuncia previa de un trabajador."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho de 'acceso' da derecho al interesado a obtener:",
+    "options": [
+      "Los datos originales, los metadatos y las predicciones que la empresa ha hecho sobre él.",
+      "Confirmación del tratamiento, copia de los datos y detalles sobre destinatarios y plazos.",
+      "La clave de acceso al servidor del responsable.",
+      "El borrado de los datos de su ex-pareja."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el artículo 73 de la LOPDGDD, se considera infracción 'muy grave' (prescripción a los 3 años):",
+    "options": [
+      "No publicar el nombre del DPD en la web.",
+      "El tratamiento de datos personales de categorías especiales sin que concurra una base de legitimación.",
+      "No responder a un derecho de acceso en plazo.",
+      "Tener el RAT en formato papel."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Un 'incidente de seguridad' solo se considera 'brecha de datos personales' si:",
+    "options": [
+      "Afecta a la disponibilidad, integridad o confidencialidad de datos personales reales.",
+      "Causa un daño económico superior a 1.000 euros.",
+      "Es provocado por un hacker de fuera de la empresa.",
+      "Ocurre en horario de máxima audiencia."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "La 'lealtad' en el tratamiento de datos prohíbe:",
+    "options": [
+      "Ganar dinero con el tratamiento de datos.",
+      "Tratar datos de forma engañosa o perjudicial para el interesado, aunque exista consentimiento.",
+      "Usar software que no sea de marca europea.",
+      "Cambiar de encargado del tratamiento sin avisar al usuario."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el 'juicio de proporcionalidad' constitucional, la 'idoneidad' de una medida significa que:",
+    "options": [
+      "La medida es barata para el Estado.",
+      "La medida es capaz de conseguir el objetivo legítimo propuesto.",
+      "No existe otra medida menos intrusiva.",
+      "La medida ha sido aprobada por un psicólogo."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El principio de 'responsabilidad proactiva' obliga a seleccionar encargados que:",
+    "options": [
+      "Sean los más económicos del mercado.",
+      "Ofrezcan garantías suficientes de que aplicarán medidas técnicas y organizativas apropiadas.",
+      "Tengan su sede social en un paraíso fiscal.",
+      "Utilicen solo ordenadores de última generación."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es el 'Comité Europeo de Protección de Datos' (CEPD)?",
+    "options": [
+      "Un tribunal que mete en la cárcel a los hackers.",
+      "Un organismo independiente que garantiza la aplicación coherente del RGPD en toda la UE.",
+      "Una asociación de usuarios de redes sociales.",
+      "La policía secreta de la Comisión Europea."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La LOPDGDD considera que el tratamiento de datos en sistemas de 'información crediticia' (ficheros de morosos) es lícito si:",
+    "options": [
+      "El usuario debe más de 1 euro.",
+      "La deuda es cierta, vencida, exigible y ha habido un requerimiento previo de pago.",
+      "La empresa tiene un interés comercial en desprestigiar al cliente.",
+      "Se publican los datos en el periódico local."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho a 'no ser objeto de decisiones individuales automatizadas' NO se aplica si:",
+    "options": [
+      "La decisión es necesaria para la celebración o ejecución de un contrato entre interesado y responsable.",
+      "El algoritmo es muy inteligente y nunca falla.",
+      "El interesado es una persona jurídica.",
+      "La decisión no tiene efectos jurídicos pero sí nos molesta."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "La 'cláusula de confidencialidad' de los empleados (Art. 5 LOPDGDD):",
+    "options": [
+      "Termina cuando el empleado deja de trabajar en la empresa.",
+      "Es obligatoria y persiste incluso tras finalizar la relación laboral o profesional.",
+      "Solo se aplica si el empleado cobra un plus de exclusividad.",
+      "Permite al empleado llevarse una copia de los datos a su casa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el Tema 3, ¿qué se entiende por 'determinismo algorítmico'?",
+    "options": [
+      "Que los ordenadores siempre tienen la razón.",
+      "La reducción de la persona a su perfil de datos, eliminando su capacidad de cambiar o escapar de su pasado.",
+      "El uso de algoritmos para predecir el tiempo meteorológico.",
+      "La obligación de estudiar programación en el colegio."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'transparencia de segundo nivel' en la LOPDGDD se refiere a:",
+    "options": [
+      "Información que se da solo a los accionistas.",
+      "Información detallada sobre el tratamiento que debe estar accesible de forma permanente (ej. Política de Privacidad web).",
+      "Información secreta que solo conoce la AEPD.",
+      "Un resumen de la información en formato de vídeo."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Para tratar datos de 'orientación sexual' (Art. 9 LOPDGDD), el legislador español exige:",
+    "options": [
+      "Solo el consentimiento del interesado.",
+      "Que la posibilidad de tratamiento esté amparada en una norma con rango de ley.",
+      "Que el interesado sea mayor de 21 años.",
+      "Que los datos se guarden en una caja fuerte física."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El principio de 'exactitud' en el 'Big Data' es un reto porque:",
+    "options": [
+      "Los datos masivos nunca se equivocan.",
+      "La agregación de múltiples fuentes y el análisis predictivo pueden generar correlaciones erróneas que afecten a la veracidad del perfil.",
+      "Es imposible guardar tantos datos sin que se corrompan los archivos.",
+      "El RGPD prohíbe el uso de Big Data."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Un 'DPO externo' es aquel que:",
+    "options": [
+      "Vive en un país fuera de la Unión Europea.",
+      "Ejerce sus funciones en el marco de un contrato de servicios (ej. una consultora externa).",
+      "No tiene ni idea de derecho pero sabe mucho de informática.",
+      "Ha sido despedido por la AEPD."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'privacidad por diseño' debe aplicarse preferentemente mediante:",
+    "options": [
+      "La contratación de muchos abogados.",
+      "La ingeniería de la privacidad y el uso de tecnologías que minimicen el uso de datos desde la fase de concepto.",
+      "La compra de servidores más potentes.",
+      "La publicación de un manual de ética en la oficina."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Si el responsable no responde a una solicitud de derechos en un mes, el interesado puede presentar una 'Reclamación de Tutela de Derechos' ante:",
+    "options": [
+      "El Defensor del Pueblo.",
+      "La Agencia Española de Protección de Datos (AEPD).",
+      "Su ayuntamiento.",
+      "La policía local."
+    ],
+    "correct": 1
+  }
+]
+>>>>>>> Stashed changes

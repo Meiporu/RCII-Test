@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Según la STC 292/2000, ¿cuál es el objeto específico de protección del derecho fundamental a la protección de datos que lo diferencia del derecho a la intimidad?",
+    "options": [
+      "La exclusión del conocimiento ajeno de hechos puramente privados.",
+      "El control sobre el flujo de informaciones que conciernen a cada persona, independientemente de su carácter íntimo.",
+      "La protección exclusiva de datos sensibles o de categorías especiales.",
+      "El derecho a ser indemnizado por intromisiones ilegítimas de la prensa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el marco de la LOPDGDD, ¿qué requisito adicional se exige para que el tratamiento de datos sea lícito por 'cumplimiento de una misión en interés público' o 'ejercicio de poderes públicos'?",
+    "options": [
+      "Que el interesado no se haya opuesto en un plazo de 10 días.",
+      "Que la competencia esté atribuida por una norma con rango de ley.",
+      "Que el tratamiento sea validado previamente por un Notario.",
+      "Que la empresa tenga un capital social superior a 100.000 euros."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "De acuerdo con el artículo 9 de la LOPDGDD, ¿es suficiente el consentimiento del afectado para tratar datos de ideología, religión o creencias?",
+    "options": [
+      "Sí, siempre que sea un consentimiento explícito según el RGPD.",
+      "No, la ley española establece que el solo consentimiento no basta para levantar la prohibición de estos datos para evitar fines discriminatorios.",
+      "Solo si el consentimiento se presta por escrito y ante dos testigos.",
+      "Sí, siempre que los datos se recojan en una encuesta anónima."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el caso de un tratamiento de datos de personas fallecidas, ¿qué facultad otorga la LOPDGDD a los herederos?",
+    "options": [
+      "Ninguna, ya que el derecho a la protección de datos se extingue con la muerte.",
+      "Acceso, rectificación y supresión, salvo prohibición expresa del fallecido o que una ley lo impida.",
+      "Derecho a cobrar las indemnizaciones por brechas de seguridad ocurridas en vida del fallecido.",
+      "Acceso exclusivo a los datos de carácter patrimonial y bancario."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El principio de 'responsabilidad proactiva' (accountability) invierte la carga de la prueba en el sentido de que:",
+    "options": [
+      "El usuario debe probar que la empresa ha maltratado sus datos.",
+      "La AEPD debe probar la infracción antes de iniciar un expediente.",
+      "El responsable debe ser capaz de demostrar ante la autoridad que ha aplicado las medidas adecuadas.",
+      "El encargado del tratamiento es el único responsable legal ante los tribunales."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Respecto a la 'excepción doméstica', el TJUE (Asunto Lindqvist) determinó que el tratamiento deja de ser doméstico si:",
+    "options": [
+      "Se utilizan más de dos dispositivos electrónicos para el tratamiento.",
+      "Los datos se publican en Internet haciéndolos accesibles a un grupo indeterminado de personas.",
+      "El tratamiento se realiza fuera del horario laboral del usuario.",
+      "Se cobran menos de 5 euros por acceder a la información."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Un algoritmo de 'Riders S.L.' penaliza a trabajadores basándose en opiniones de clientes. Según el artículo 22 del RGPD y los casos vistos, el trabajador tiene derecho a:",
+    "options": [
+      "Pedir que el algoritmo sea borrado y sustituido por un jefe humano.",
+      "Obtener información significativa sobre la lógica aplicada y poder impugnar la decisión.",
+      "Recibir una copia del código fuente íntegro del algoritmo (software).",
+      "No tiene derechos, ya que el algoritmo es propiedad privada de la empresa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué rango normativo tiene el RGPD en el ordenamiento jurídico español?",
+    "options": [
+      "Ley Orgánica nacional.",
+      "Reglamento administrativo subordinado a la LOPDGDD.",
+      "Norma de aplicación directa con primacía sobre el derecho interno.",
+      "Recomendación europea de obligado cumplimiento parcial."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "El principio de 'privacidad desde el diseño' exige aplicar medidas técnicas y organizativas:",
+    "options": [
+      "Solo después de que ocurra una brecha de seguridad.",
+      "Tanto en el momento de determinar los medios de tratamiento como en el momento del tratamiento mismo.",
+      "Únicamente si el tratamiento afecta a más de 1.000.000 de personas.",
+      "Mediante el uso exclusivo de tecnología de cadena de bloques (blockchain)."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La LOPDGDD establece que el tratamiento de datos de menores de 14 años es lícito solo si el consentimiento lo otorga:",
+    "options": [
+      "El menor, si demuestra madurez suficiente.",
+      "El titular de la patria potestad o tutela.",
+      "El director del centro escolar del menor.",
+      "El Ministerio de Juventud."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En la jerarquía normativa española, ¿qué ocurre si una Ley Ordinaria contradice una disposición de una Ley Orgánica en materia de derechos fundamentales?",
+    "options": [
+      "Prevalece la Ley Ordinaria por ser más específica.",
+      "Prevalece la Ley Orgánica por el principio de competencia y jerarquía en materias reservadas.",
+      "Se aplica la norma más reciente (lex posterior).",
+      "Ambas quedan anuladas automáticamente."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho a la 'limitación del tratamiento' implica que el responsable:",
+    "options": [
+      "Debe borrar los datos inmediatamente de todos sus servidores.",
+      "Solo podrá tratar los datos con el consentimiento del interesado, para reclamaciones o protección de derechos.",
+      "Debe permitir que el usuario descargue los datos en un archivo .zip.",
+      "Debe ocultar los datos únicamente a los empleados de bajo rango."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el artículo 30 del RGPD, ¿cuándo es obligatorio para una empresa de menos de 250 empleados llevar un registro de actividades?",
+    "options": [
+      "Nunca, las PYMES están siempre exentas.",
+      "Si el tratamiento no es ocasional o incluye categorías especiales de datos.",
+      "Solo si la empresa exporta productos fuera de la Unión Europea.",
+      "Si el gerente de la empresa no tiene el título de DPO."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El concepto de 'contaminación de libertades' de Pérez Luño hace referencia a:",
+    "options": [
+      "La polución ambiental generada por los centros de datos.",
+      "La degradación de los derechos fundamentales ante el uso invasivo de las TIC.",
+      "La mezcla de leyes nacionales y europeas que confunden al ciudadano.",
+      "El uso de software pirata en las administraciones públicas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La Evaluación de Impacto (EIPD) debe realizarse 'antes' del tratamiento cuando sea probable que este entrañe:",
+    "options": [
+      "Cualquier coste económico para el interesado.",
+      "Un alto riesgo para los derechos y libertades de las personas físicas.",
+      "El uso de servidores situados fuera de España.",
+      "La contratación de más de dos encargados de tratamiento."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Cuál es la función del Delegado de Protección de Datos (DPD) respecto a la autoridad de control?",
+    "options": [
+      "Sustituir a la AEPD en las labores de sanción interna.",
+      "Actuar como punto de contacto para la autoridad de control en cuestiones relativas al tratamiento.",
+      "Defender al responsable en los juicios para evitar multas.",
+      "Enviar mensualmente todos los datos de los usuarios a la AEPD."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho de 'portabilidad' (Art. 20 RGPD) solo es aplicable si el tratamiento se basa en:",
+    "options": [
+      "Interés legítimo o interés público.",
+      "Consentimiento o ejecución de un contrato, y se realiza por medios automatizados.",
+      "Obligación legal o intereses vitales.",
+      "Cualquier base de legitimación prevista en el artículo 6."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según la doctrina del TC, el 'contenido esencial' de un derecho fundamental es aquel que:",
+    "options": [
+      "Permite al Gobierno suspender el derecho en caso de huelga.",
+      "Hace que el derecho sea reconocible y sin el cual pierde su utilidad para el titular.",
+      "Solo se aplica a los ciudadanos con nacionalidad española.",
+      "Puede ser modificado por un Real Decreto-Ley en caso de urgencia."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el caso de las 'cookies', para que el consentimiento sea válido según la AEPD, el usuario debe:",
+    "options": [
+      "Poder seguir navegando sin que su silencio se considere aceptación.",
+      "Ser obligado a aceptar para poder ver el contenido de la web.",
+      "Recibir un correo electrónico de confirmación tras aceptar.",
+      "Aceptar cada cookie una por una sin opción de 'aceptar todas'."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Un 'dato biométrico' se considera categoría especial de datos siempre que:",
+    "options": [
+      "Se capture mediante una cámara de alta definición.",
+      "Se trate con el fin de identificar de manera unívoca a una persona física.",
+      "Se almacene en un servidor situado en la nube.",
+      "Pertenezca a un personaje público o celebridad."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué principio del RGPD se vulnera si una empresa utiliza los datos de salud de sus empleados para decidir a quién promocionar?",
+    "options": [
+      "Principio de integridad.",
+      "Principio de limitación de la finalidad.",
+      "Principio de portabilidad.",
+      "Principio de transparencia."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La notificación de una brecha de seguridad a los 'interesados' es obligatoria cuando:",
+    "options": [
+      "Afecte a más de 100 personas.",
+      "Sea probable que la brecha entrañe un alto riesgo para sus derechos y libertades.",
+      "Lo solicite un medio de comunicación.",
+      "La empresa no tenga contratado un seguro de responsabilidad civil."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El principio de 'exactitud' implica que, si un dato es erróneo, el responsable debe:",
+    "options": [
+      "Borrarlo solo si el interesado paga los gastos de gestión.",
+      "Adoptar medidas razonables para suprimirlo o rectificarlo sin dilación.",
+      "Pedir permiso a la AEPD para modificarlo.",
+      "Esperar a que un juez ordene la rectificación."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué diferencia al 'corresponsable' del 'encargado' del tratamiento?",
+    "options": [
+      "El corresponsable determina junto con otro los fines y medios; el encargado solo sigue instrucciones.",
+      "El corresponsable es una persona física y el encargado es jurídica.",
+      "El encargado tiene más poder de decisión que el responsable.",
+      "No existe la figura del corresponsable en el RGPD."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "El 'interés legítimo' como base de legitimación requiere siempre realizar:",
+    "options": [
+      "Un pago de tasas a la Administración.",
+      "Una prueba de ponderación entre los intereses del responsable y los derechos del interesado.",
+      "Una consulta pública en el BOE.",
+      "Una auditoría externa por parte de una Big Four."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según la LOPDGDD, las categorías especiales de datos (Art. 9 RGPD) no pueden tratarse basándose solo en el interés legítimo si:",
+    "options": [
+      "El responsable es una empresa extranjera.",
+      "Son datos relativos a la orientación sexual o datos genéticos.",
+      "Se trata de datos de mayores de 65 años.",
+      "El tratamiento se realiza en soporte digital."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El derecho al 'olvido' en buscadores de internet permite solicitar la desindexación cuando:",
+    "options": [
+      "La noticia es veraz pero los datos son inadecuados, no pertinentes o excesivos por el paso del tiempo.",
+      "La noticia es actual y de gran interés público.",
+      "El usuario simplemente no quiere aparecer en Google por motivos estéticos.",
+      "La información se refiere a una condena penal firme de hace menos de un año."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "El principio de 'minimizacion de datos' prohíbe:",
+    "options": [
+      "Recoger datos personales si no es estrictamente necesario para la finalidad perseguida.",
+      "Tener bases de datos de más de 1 TB.",
+      "Usar inteligencia artificial para procesar información.",
+      "Guardar los datos durante más de un mes."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "En la UE, si un Estado miembro no transpone una Directiva en plazo, el ciudadano puede invocar el 'efecto directo' si:",
+    "options": [
+      "La disposición es clara, precisa e incondicional.",
+      "El ciudadano paga una fianza en el tribunal.",
+      "La Directiva favorece los intereses económicos del Estado.",
+      "El Presidente del Gobierno lo autoriza por decreto."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Cuál es la sanción máxima que puede imponer la AEPD por infracciones muy graves según el RGPD?",
+    "options": [
+      "600.000 euros.",
+      "20 millones de euros o el 4% del volumen de negocio anual global, la cuantía que sea mayor.",
+      "El cierre definitivo de la empresa.",
+      "Prisión de 1 a 3 años para el director de informática."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'pseudonimización' es una medida de seguridad que:",
+    "options": [
+      "Hace que los datos sean anónimos e irreversibles para siempre.",
+      "Impide atribuir datos a un interesado sin usar información adicional que se guarda por separado.",
+      "Consiste en cambiar el nombre de los empleados por números al azar.",
+      "Solo es obligatoria para el Gobierno."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El principio de 'neutralidad tecnológica' implica que la ley de protección de datos:",
+    "options": [
+      "Se aplica de la misma forma sea cual sea la tecnología utilizada.",
+      "Solo se aplica a las tecnologías desarrolladas en la Unión Europea.",
+      "Prohíbe el uso de tecnologías que no hayan sido aprobadas por el Parlamento.",
+      "Obliga a cambiar de software cada dos años."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "¿Qué es la 'privacidad por defecto'?",
+    "options": [
+      "La obligación de leer toda la política de privacidad antes de usar una web.",
+      "Que los sistemas garanticen que, de entrada, solo se traten los datos mínimos necesarios.",
+      "Que el usuario no tenga derecho a configurar su privacidad.",
+      "Que todos los datos sean privados a menos que se pague por hacerlos públicos."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el Tema 1, ¿cuál es el rasgo del Derecho que indica que sus normas son enunciados prescriptivos?",
+    "options": [
+      "Carácter histórico.",
+      "Naturaleza normativa (deber ser).",
+      "Naturaleza institucionalizada.",
+      "Omnipresencia social."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el caso de 'decisiones individuales automatizadas' (Art. 22 RGPD), el interesado tiene derecho a:",
+    "options": [
+      "Expresar su punto de vista e impugnar la decisión ante un humano.",
+      "Recibir una compensación económica automática.",
+      "Pedir el nombre y dirección del programador del algoritmo.",
+      "No tiene ningún derecho si aceptó los términos y condiciones."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "La 'soberanía de los datos' en el contexto de la dignidad humana (Tema 2) se refiere a:",
+    "options": [
+      "El control del Estado sobre los servidores nacionales.",
+      "La capacidad del individuo de decidir sobre su propia información personal.",
+      "La prohibición de transferir datos a Estados Unidos.",
+      "El derecho de las empresas a vender datos como mercancía."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Un tratamiento basado en la 'protección de intereses vitales' se aplica cuando:",
+    "options": [
+      "El tratamiento es necesario para salvar la vida del interesado u otra persona física.",
+      "El interesado quiere ganar vitalidad mediante una app de salud.",
+      "La empresa necesita los datos para no quebrar financieramente.",
+      "El Gobierno lo declara de interés para la economía nacional."
+    ],
+    "correct": 0
+  },
+  {
+    "question": "El 'Registro de Actividades de Tratamiento' debe contener, entre otros:",
+    "options": [
+      "El nombre de todos los usuarios de la base de datos.",
+      "Los fines del tratamiento y la descripción de las categorías de datos y destinatarios.",
+      "El balance de cuentas anual de la empresa.",
+      "La lista de contraseñas de los administradores del sistema."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Si un interesado solicita el acceso a sus datos, el responsable debe responder en el plazo de:",
+    "options": [
+      "10 días hábiles.",
+      "Un mes (prorrogable por otros dos meses en casos complejos).",
+      "72 horas.",
+      "Seis meses."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La Agencia Española de Protección de Datos (AEPD) puede realizar inspecciones:",
+    "options": [
+      "Solo si tiene una denuncia previa de un usuario.",
+      "De oficio o a instancia de parte.",
+      "Solo con autorización previa del Congreso de los Diputados.",
+      "Únicamente sobre empresas públicas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El concepto de 'datos sensibles' en la LOPDGDD incluye:",
+    "options": [
+      "Dirección postal y número de teléfono fijo.",
+      "Ideología, afiliación sindical, religión, salud y orientación sexual.",
+      "Nivel de estudios y experiencia laboral.",
+      "Marca del coche y modelo del teléfono móvil."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Un 'tratamiento de datos a gran escala' se determina teniendo en cuenta:",
+    "options": [
+      "Solo el número de empleados del responsable.",
+      "El número de interesados, el volumen de datos, la duración y el alcance geográfico.",
+      "La cantidad de dinero invertida en publicidad.",
+      "Si la empresa cotiza o no en bolsa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El principio de 'transparencia' exige que las cláusulas informativas sean:",
+    "options": [
+      "Lo más largas posibles para no dejar dudas legales.",
+      "Concisas, transparentes, inteligibles y de fácil acceso.",
+      "Escritas en latín para mantener la tradición jurídica.",
+      "Enviadas por correo postal certificado a cada usuario."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'integridad' como principio de seguridad busca evitar:",
+    "options": [
+      "Que los datos sean leídos por personas no autorizadas.",
+      "Que los datos sean modificados o alterados de forma no autorizada.",
+      "Que los datos se pierdan por un incendio.",
+      "Que el servidor se quede sin conexión a internet."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "¿Qué es la 'transferencia internacional de datos'?",
+    "options": [
+      "Enviar un correo electrónico a un amigo en Francia.",
+      "La transmisión de datos personales a un país fuera del Espacio Económico Europeo.",
+      "Vender ordenadores a una empresa de China.",
+      "Usar una VPN para navegar por internet."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Según el artículo 18.4 de la CE, la ley limitará el uso de la informática para:",
+    "options": [
+      "Proteger el mercado de software español.",
+      "Garantizar el honor y la intimidad personal y el pleno ejercicio de los derechos.",
+      "Evitar que los niños pasen mucho tiempo en internet.",
+      "Fomentar la educación digital en las escuelas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'cláusula de salvaguarda' en contratos con encargados de tratamiento debe incluir:",
+    "options": [
+      "Que el encargado puede usar los datos para sus propios fines.",
+      "La obligación del encargado de tratar los datos solo siguiendo instrucciones del responsable.",
+      "Que el encargado es el dueño de la base de datos.",
+      "La renuncia del interesado a denunciar a la empresa."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "En el caso de videovigilancia en el trabajo, la LOPDGDD establece que:",
+    "options": [
+      "Se pueden grabar conversaciones privadas en los descansos.",
+      "Se debe informar a los trabajadores, pero no se pueden instalar cámaras en vestuarios o zonas de descanso.",
+      "No es necesario informar si se sospecha de un robo.",
+      "Las cámaras pueden ser ocultas siempre que lo apruebe el DPO."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "El 'derecho a la rectificación' debe atenderse sin dilación excesiva en un plazo de:",
+    "options": [
+      "24 horas.",
+      "Un mes.",
+      "10 días.",
+      "72 horas."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "La 'resiliencia' de los sistemas de tratamiento (Art. 32 RGPD) se refiere a:",
+    "options": [
+      "La capacidad de resistir y recuperarse rápidamente de incidentes técnicos o físicos.",
+      "La amabilidad de los empleados de soporte técnico.",
+      "La duración de la batería de los portátiles de la empresa.",
+      "El cumplimiento estricto de los horarios de trabajo."
+    ],
+    "correct": 0
+  }
+]
